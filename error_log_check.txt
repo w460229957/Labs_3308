@@ -1,0 +1,30 @@
+Sep 26 00:00:28 zhengyuanzhang-VirtualBox systemd-resolved[437]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Sep 26 00:52:14 zhengyuanzhang-VirtualBox update-notifier.desktop[2423]: ERROR:root:Not enough free space: ['/']
+Sep 26 01:21:28 zhengyuanzhang-VirtualBox systemd-resolved[437]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Sep 26 01:21:30 zhengyuanzhang-VirtualBox systemd-resolved[437]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Sep 26 01:24:15 zhengyuanzhang-VirtualBox gnome-shell[1221]: Error getting desktop unix mode: Gio.IOErrorEnum: Error when getting information for file “/home/zhengyuanzhang/桌面/.ssmtp.swpx”: 没有那个文件或目录
+Sep 26 01:25:47 zhengyuanzhang-VirtualBox gnome-shell[1221]: Error getting desktop unix mode: Gio.IOErrorEnum: Error when getting information for file “/home/zhengyuanzhang/桌面/.ssmtp.swpx”: 没有那个文件或目录
+Sep 26 01:25:52 zhengyuanzhang-VirtualBox gnome-shell[1221]: Error getting desktop unix mode: Gio.IOErrorEnum: Error when getting information for file “/home/zhengyuanzhang/桌面/4913”: 没有那个文件或目录
+Sep 26 01:25:52 zhengyuanzhang-VirtualBox gnome-shell[1221]: Error getting desktop unix mode: Gio.IOErrorEnum: Error when getting information for file “/home/zhengyuanzhang/桌面/4913”: 没有那个文件或目录
+Sep 26 01:25:52 zhengyuanzhang-VirtualBox gnome-shell[1221]: Error getting the file info: Gio.IOErrorEnum: Error when getting information for file “/home/zhengyuanzhang/桌面/ssmtp~”: 没有那个文件或目录
+Sep 26 01:34:47 zhengyuanzhang-VirtualBox gvfsd[33031]: Error executing command as another user: Request dismissed
+Sep 26 01:43:48 zhengyuanzhang-VirtualBox gvfsd[33240]: Error executing command as another user: Request dismissed
+Sep 26 01:59:00 zhengyuanzhang-VirtualBox org.gnome.Nautilus[33072]: ERROR:../src/nautilus-window-slot.c:1450:begin_location_change: assertion failed: (priv->determine_view_file != NULL)
+Sep 26 01:59:00 zhengyuanzhang-VirtualBox org.gnome.Nautilus[33072]: Bail out! ERROR:../src/nautilus-window-slot.c:1450:begin_location_change: assertion failed: (priv->determine_view_file != NULL)
+Sep 26 01:59:48 zhengyuanzhang-VirtualBox gvfsd[33443]: Error executing command as another user: Request dismissed
+Sep 26 03:54:08 zhengyuanzhang-VirtualBox gnome-shell[1221]: Impossible to resize screen at size 1353x876, error id 8: BadMatch (invalid parameter attributes)
+Sep 26 03:58:35 zhengyuanzhang-VirtualBox gnome-shell[1221]: Impossible to resize screen at size 1518x1040, error id 8: BadMatch (invalid parameter attributes)
+Sep 26 04:08:02 zhengyuanzhang-VirtualBox systemd-resolved[437]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Sep 26 04:27:14 zhengyuanzhang-VirtualBox snap-store[1490]: GError set over the top of a previous GError or uninitialized memory.#012This indicates a bug in someone's code. You must ensure an error is NULL before it's set.#012The overwriting error message was: Error opening directory “/usr/share/metainfo”: No such file or directory
+Sep 26 04:27:14 zhengyuanzhang-VirtualBox snap-store[1490]: xb_builder_ensure: assertion 'error == NULL || *error == NULL' failed
+Sep 26 04:27:14 zhengyuanzhang-VirtualBox snap-store[1490]: not GsPlugin error g-file-error-quark:4: Error opening directory “/usr/share/appdata”: No such file or directory
+Sep 26 04:27:14 zhengyuanzhang-VirtualBox snap-store[1490]: GError set over the top of a previous GError or uninitialized memory.#012This indicates a bug in someone's code. You must ensure an error is NULL before it's set.#012The overwriting error message was: Error opening directory “/usr/share/metainfo”: No such file or directory
+Sep 26 04:27:14 zhengyuanzhang-VirtualBox snap-store[1490]: xb_builder_ensure: assertion 'error == NULL || *error == NULL' failed
+Sep 26 04:27:14 zhengyuanzhang-VirtualBox snap-store[1490]: not GsPlugin error g-file-error-quark:4: Error opening directory “/usr/share/appdata”: No such file or directory
+Sep 26 04:27:14 zhengyuanzhang-VirtualBox snap-store[1490]: GError set over the top of a previous GError or uninitialized memory.#012This indicates a bug in someone's code. You must ensure an error is NULL before it's set.#012The overwriting error message was: Error opening directory “/usr/share/metainfo”: No such file or directory
+Sep 26 04:27:14 zhengyuanzhang-VirtualBox snap-store[1490]: xb_builder_ensure: assertion 'error == NULL || *error == NULL' failed
+Sep 26 04:27:14 zhengyuanzhang-VirtualBox snap-store[1490]: not GsPlugin error g-file-error-quark:4: Error opening directory “/usr/share/appdata”: No such file or directory
+Sep 26 04:27:14 zhengyuanzhang-VirtualBox snap-store[1490]: GError set over the top of a previous GError or uninitialized memory.#012This indicates a bug in someone's code. You must ensure an error is NULL before it's set.#012The overwriting error message was: Error opening directory “/usr/share/metainfo”: No such file or directory
+Sep 26 04:27:14 zhengyuanzhang-VirtualBox snap-store[1490]: xb_builder_ensure: assertion 'error == NULL || *error == NULL' failed
+Sep 26 04:27:14 zhengyuanzhang-VirtualBox snap-store[1490]: not GsPlugin error g-file-error-quark:4: Error opening directory “/usr/share/appdata”: No such file or directory
+Sep 26 04:27:14 zhengyuanzhang-VirtualBox snap-store[1490]: not handling error failed for action refine: Error opening directory “/usr/share/appdata”: No such file or directory

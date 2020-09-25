@@ -1,0 +1,1117 @@
+Sep 26 00:00:28 zhengyuanzhang-VirtualBox systemd-resolved[437]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Sep 26 00:00:28 zhengyuanzhang-VirtualBox systemd[1]: logrotate.service: Succeeded.
+Sep 26 00:00:28 zhengyuanzhang-VirtualBox systemd[1]: Finished Rotate log files.
+Sep 26 00:00:28 zhengyuanzhang-VirtualBox systemd[1]: man-db.service: Succeeded.
+Sep 26 00:00:28 zhengyuanzhang-VirtualBox systemd[1]: Finished Daily man-db regeneration.
+Sep 26 00:01:21 zhengyuanzhang-VirtualBox NetworkManager[480]: <info>  [1601049681.0852] manager: NetworkManager state is now CONNECTED_SITE
+Sep 26 00:01:21 zhengyuanzhang-VirtualBox dbus-daemon[479]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.7' (uid=0 pid=480 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Sep 26 00:01:21 zhengyuanzhang-VirtualBox whoopsie[639]: [00:01:21] offline
+Sep 26 00:01:21 zhengyuanzhang-VirtualBox systemd[1]: Starting Network Manager Script Dispatcher Service...
+Sep 26 00:01:21 zhengyuanzhang-VirtualBox dbus-daemon[479]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Sep 26 00:01:21 zhengyuanzhang-VirtualBox systemd[1]: Started Network Manager Script Dispatcher Service.
+Sep 26 00:01:21 zhengyuanzhang-VirtualBox NetworkManager[480]: <info>  [1601049681.9108] manager: NetworkManager state is now CONNECTED_GLOBAL
+Sep 26 00:01:21 zhengyuanzhang-VirtualBox whoopsie[639]: [00:01:21] The default IPv4 route is: /org/freedesktop/NetworkManager/ActiveConnection/1
+Sep 26 00:01:21 zhengyuanzhang-VirtualBox whoopsie[639]: [00:01:21] Not a paid data plan: /org/freedesktop/NetworkManager/ActiveConnection/1
+Sep 26 00:01:21 zhengyuanzhang-VirtualBox whoopsie[639]: [00:01:21] Found usable connection: /org/freedesktop/NetworkManager/ActiveConnection/1
+Sep 26 00:01:24 zhengyuanzhang-VirtualBox whoopsie[639]: [00:01:24] online
+Sep 26 00:01:32 zhengyuanzhang-VirtualBox systemd[1]: NetworkManager-dispatcher.service: Succeeded.
+Sep 26 00:02:50 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.2' (uid=1000 pid=899 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Sep 26 00:02:50 zhengyuanzhang-VirtualBox systemd[889]: Starting Tracker metadata database store and lookup manager...
+Sep 26 00:02:50 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Successfully activated service 'org.freedesktop.Tracker1'
+Sep 26 00:02:50 zhengyuanzhang-VirtualBox systemd[889]: Started Tracker metadata database store and lookup manager.
+Sep 26 00:03:21 zhengyuanzhang-VirtualBox tracker-store[30611]: OK
+Sep 26 00:03:21 zhengyuanzhang-VirtualBox systemd[889]: tracker-store.service: Succeeded.
+Sep 26 00:05:01 zhengyuanzhang-VirtualBox CRON[30629]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Sep 26 00:06:03 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.2' (uid=1000 pid=899 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Sep 26 00:06:03 zhengyuanzhang-VirtualBox systemd[889]: Starting Tracker metadata database store and lookup manager...
+Sep 26 00:06:03 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Successfully activated service 'org.freedesktop.Tracker1'
+Sep 26 00:06:03 zhengyuanzhang-VirtualBox systemd[889]: Started Tracker metadata database store and lookup manager.
+Sep 26 00:06:34 zhengyuanzhang-VirtualBox tracker-store[30640]: OK
+Sep 26 00:06:34 zhengyuanzhang-VirtualBox systemd[889]: tracker-store.service: Succeeded.
+Sep 26 00:14:03 zhengyuanzhang-VirtualBox dbus-daemon[479]: [system] Activating via systemd: service name='net.reactivated.Fprint' unit='fprintd.service' requested by ':1.47' (uid=1000 pid=1221 comm="/usr/bin/gnome-shell " label="unconfined")
+Sep 26 00:14:03 zhengyuanzhang-VirtualBox systemd[1]: Starting Fingerprint Authentication Daemon...
+Sep 26 00:14:03 zhengyuanzhang-VirtualBox dbus-daemon[479]: [system] Successfully activated service 'net.reactivated.Fprint'
+Sep 26 00:14:03 zhengyuanzhang-VirtualBox systemd[1]: Started Fingerprint Authentication Daemon.
+Sep 26 00:14:06 zhengyuanzhang-VirtualBox NetworkManager[480]: <info>  [1601050446.7215] agent-manager: agent[40bee903c23628b5,:1.47/org.gnome.Shell.NetworkAgent/1000]: agent registered
+Sep 26 00:14:07 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 31 with keysym 31 (keycode a).
+Sep 26 00:14:07 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 32 with keysym 32 (keycode b).
+Sep 26 00:14:07 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 38 with keysym 38 (keycode 11).
+Sep 26 00:14:07 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 39 with keysym 39 (keycode 12).
+Sep 26 00:14:07 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 33 with keysym 33 (keycode c).
+Sep 26 00:14:07 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 34 with keysym 34 (keycode d).
+Sep 26 00:14:07 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 35 with keysym 35 (keycode e).
+Sep 26 00:14:07 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 36 with keysym 36 (keycode f).
+Sep 26 00:14:07 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 37 with keysym 37 (keycode 10).
+Sep 26 00:14:34 zhengyuanzhang-VirtualBox systemd[1]: fprintd.service: Succeeded.
+Sep 26 00:15:01 zhengyuanzhang-VirtualBox CRON[30735]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Sep 26 00:17:01 zhengyuanzhang-VirtualBox CRON[30741]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Sep 26 00:19:29 zhengyuanzhang-VirtualBox dbus-daemon[479]: [system] Activating via systemd: service name='net.reactivated.Fprint' unit='fprintd.service' requested by ':1.47' (uid=1000 pid=1221 comm="/usr/bin/gnome-shell " label="unconfined")
+Sep 26 00:19:29 zhengyuanzhang-VirtualBox systemd[1]: Starting Fingerprint Authentication Daemon...
+Sep 26 00:19:29 zhengyuanzhang-VirtualBox dbus-daemon[479]: [system] Successfully activated service 'net.reactivated.Fprint'
+Sep 26 00:19:29 zhengyuanzhang-VirtualBox systemd[1]: Started Fingerprint Authentication Daemon.
+Sep 26 00:19:34 zhengyuanzhang-VirtualBox NetworkManager[480]: <info>  [1601050774.6307] agent-manager: agent[6b8e3e92925ebff6,:1.47/org.gnome.Shell.NetworkAgent/1000]: agent registered
+Sep 26 00:19:35 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 31 with keysym 31 (keycode a).
+Sep 26 00:19:35 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 32 with keysym 32 (keycode b).
+Sep 26 00:19:35 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 33 with keysym 33 (keycode c).
+Sep 26 00:19:35 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 34 with keysym 34 (keycode d).
+Sep 26 00:19:35 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 38 with keysym 38 (keycode 11).
+Sep 26 00:19:35 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 39 with keysym 39 (keycode 12).
+Sep 26 00:19:35 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 35 with keysym 35 (keycode e).
+Sep 26 00:19:35 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 36 with keysym 36 (keycode f).
+Sep 26 00:19:35 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 37 with keysym 37 (keycode 10).
+Sep 26 00:19:59 zhengyuanzhang-VirtualBox systemd[1]: fprintd.service: Succeeded.
+Sep 26 00:24:25 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.2' (uid=1000 pid=899 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Sep 26 00:24:25 zhengyuanzhang-VirtualBox systemd[889]: Starting Tracker metadata database store and lookup manager...
+Sep 26 00:24:25 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Successfully activated service 'org.freedesktop.Tracker1'
+Sep 26 00:24:25 zhengyuanzhang-VirtualBox systemd[889]: Started Tracker metadata database store and lookup manager.
+Sep 26 00:24:55 zhengyuanzhang-VirtualBox tracker-store[30823]: OK
+Sep 26 00:24:55 zhengyuanzhang-VirtualBox systemd[889]: tracker-store.service: Succeeded.
+Sep 26 00:25:01 zhengyuanzhang-VirtualBox CRON[30839]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Sep 26 00:28:52 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.2' (uid=1000 pid=899 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Sep 26 00:28:52 zhengyuanzhang-VirtualBox systemd[889]: Starting Tracker metadata database store and lookup manager...
+Sep 26 00:28:52 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Successfully activated service 'org.freedesktop.Tracker1'
+Sep 26 00:28:52 zhengyuanzhang-VirtualBox systemd[889]: Started Tracker metadata database store and lookup manager.
+Sep 26 00:29:23 zhengyuanzhang-VirtualBox tracker-store[30862]: OK
+Sep 26 00:29:23 zhengyuanzhang-VirtualBox systemd[889]: tracker-store.service: Succeeded.
+Sep 26 00:30:28 zhengyuanzhang-VirtualBox systemd[1]: Starting Refresh fwupd metadata and update motd...
+Sep 26 00:30:28 zhengyuanzhang-VirtualBox dbus-daemon[479]: [system] Activating via systemd: service name='org.freedesktop.fwupd' unit='fwupd.service' requested by ':1.162' (uid=62803 pid=30877 comm="/usr/bin/fwupdmgr refresh --no-metadata-check " label="unconfined")
+Sep 26 00:30:28 zhengyuanzhang-VirtualBox systemd[1]: Starting Firmware update daemon...
+Sep 26 00:30:28 zhengyuanzhang-VirtualBox dbus-daemon[479]: [system] Successfully activated service 'org.freedesktop.fwupd'
+Sep 26 00:30:28 zhengyuanzhang-VirtualBox systemd[1]: Started Firmware update daemon.
+Sep 26 00:30:28 zhengyuanzhang-VirtualBox systemd[1]: fwupd-refresh.service: Succeeded.
+Sep 26 00:30:28 zhengyuanzhang-VirtualBox systemd[1]: Finished Refresh fwupd metadata and update motd.
+Sep 26 00:32:57 zhengyuanzhang-VirtualBox systemd[889]: vte-spawn-36794617-90b7-4f5b-bf92-723153e03a62.scope: Succeeded.
+Sep 26 00:32:58 zhengyuanzhang-VirtualBox systemd[889]: gnome-terminal-server.service: Succeeded.
+Sep 26 00:32:59 zhengyuanzhang-VirtualBox systemd[889]: Started Application launched by gnome-shell.
+Sep 26 00:32:59 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Activating via systemd: service name='org.gnome.Terminal' unit='gnome-terminal-server.service' requested by ':1.158' (uid=1000 pid=30924 comm="/usr/bin/gnome-terminal.real --window " label="unconfined")
+Sep 26 00:32:59 zhengyuanzhang-VirtualBox systemd[889]: Starting GNOME Terminal Server...
+Sep 26 00:32:59 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Successfully activated service 'org.gnome.Terminal'
+Sep 26 00:32:59 zhengyuanzhang-VirtualBox systemd[889]: Started GNOME Terminal Server.
+Sep 26 00:33:00 zhengyuanzhang-VirtualBox systemd[889]: Started VTE child process 30938 launched by gnome-terminal-server process 30927.
+Sep 26 00:33:00 zhengyuanzhang-VirtualBox systemd[889]: gnome-launched-org.gnome.Terminal.desktop-30921.scope: Succeeded.
+Sep 26 00:34:35 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.2' (uid=1000 pid=899 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Sep 26 00:34:35 zhengyuanzhang-VirtualBox systemd[889]: Starting Tracker metadata database store and lookup manager...
+Sep 26 00:34:35 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Successfully activated service 'org.freedesktop.Tracker1'
+Sep 26 00:34:35 zhengyuanzhang-VirtualBox systemd[889]: Started Tracker metadata database store and lookup manager.
+Sep 26 00:35:01 zhengyuanzhang-VirtualBox CRON[30964]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Sep 26 00:35:05 zhengyuanzhang-VirtualBox tracker-store[30955]: OK
+Sep 26 00:35:05 zhengyuanzhang-VirtualBox systemd[889]: tracker-store.service: Succeeded.
+Sep 26 00:40:30 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.2' (uid=1000 pid=899 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Sep 26 00:40:30 zhengyuanzhang-VirtualBox systemd[889]: Starting Tracker metadata database store and lookup manager...
+Sep 26 00:40:30 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Successfully activated service 'org.freedesktop.Tracker1'
+Sep 26 00:40:30 zhengyuanzhang-VirtualBox systemd[889]: Started Tracker metadata database store and lookup manager.
+Sep 26 00:41:00 zhengyuanzhang-VirtualBox tracker-store[31002]: OK
+Sep 26 00:41:00 zhengyuanzhang-VirtualBox systemd[889]: tracker-store.service: Succeeded.
+Sep 26 00:42:10 zhengyuanzhang-VirtualBox gnome-shell[1221]: ../clutter/clutter/clutter-actor.c:10556: The clutter_actor_set_allocation() function can only be called from within the implementation of the ClutterActor::allocate() virtual function.
+Sep 26 00:42:56 zhengyuanzhang-VirtualBox gnome-shell[1221]: ../clutter/clutter/clutter-actor.c:10556: The clutter_actor_set_allocation() function can only be called from within the implementation of the ClutterActor::allocate() virtual function.
+Sep 26 00:45:01 zhengyuanzhang-VirtualBox CRON[31038]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Sep 26 00:50:49 zhengyuanzhang-VirtualBox gsd-color[1324]: unable to get EDID for xrandr-Virtual1: unable to get EDID for output
+Sep 26 00:50:49 zhengyuanzhang-VirtualBox gsd-color[1324]: message repeated 15 times: [ unable to get EDID for xrandr-Virtual1: unable to get EDID for output]
+Sep 26 00:50:49 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 33 with keysym 33 (keycode c).
+Sep 26 00:50:49 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 31 with keysym 31 (keycode a).
+Sep 26 00:50:49 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 32 with keysym 32 (keycode b).
+Sep 26 00:50:49 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 34 with keysym 34 (keycode d).
+Sep 26 00:50:49 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 38 with keysym 38 (keycode 11).
+Sep 26 00:50:49 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 39 with keysym 39 (keycode 12).
+Sep 26 00:50:49 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 35 with keysym 35 (keycode e).
+Sep 26 00:50:49 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 36 with keysym 36 (keycode f).
+Sep 26 00:50:49 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 37 with keysym 37 (keycode 10).
+Sep 26 00:50:50 zhengyuanzhang-VirtualBox /usr/lib/gdm3/gdm-x-session[907]: (EE) No surface to present from.
+Sep 26 00:50:50 zhengyuanzhang-VirtualBox /usr/lib/gdm3/gdm-x-session[907]: message repeated 2 times: [ (EE) No surface to present from.]
+Sep 26 00:50:50 zhengyuanzhang-VirtualBox gsd-color[1324]: unable to get EDID for xrandr-Virtual1: unable to get EDID for output
+Sep 26 00:50:50 zhengyuanzhang-VirtualBox gsd-color[1324]: message repeated 11 times: [ unable to get EDID for xrandr-Virtual1: unable to get EDID for output]
+Sep 26 00:50:50 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 31 with keysym 31 (keycode a).
+Sep 26 00:50:50 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 32 with keysym 32 (keycode b).
+Sep 26 00:50:50 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 33 with keysym 33 (keycode c).
+Sep 26 00:50:50 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 34 with keysym 34 (keycode d).
+Sep 26 00:50:50 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 35 with keysym 35 (keycode e).
+Sep 26 00:50:50 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 38 with keysym 38 (keycode 11).
+Sep 26 00:50:50 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 39 with keysym 39 (keycode 12).
+Sep 26 00:50:50 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 36 with keysym 36 (keycode f).
+Sep 26 00:50:50 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 37 with keysym 37 (keycode 10).
+Sep 26 00:51:23 zhengyuanzhang-VirtualBox systemd[889]: vte-spawn-c3eec395-190f-4ab7-8f0b-145d2213c026.scope: Succeeded.
+Sep 26 00:51:23 zhengyuanzhang-VirtualBox systemd[889]: gnome-terminal-server.service: Succeeded.
+Sep 26 00:51:35 zhengyuanzhang-VirtualBox nautilus[30398]: Called "net usershare info" but it failed: Failed to execute child process “net” (No such file or directory)
+Sep 26 00:51:41 zhengyuanzhang-VirtualBox NetworkManager[480]: <info>  [1601052701.0856] manager: NetworkManager state is now CONNECTED_SITE
+Sep 26 00:51:41 zhengyuanzhang-VirtualBox dbus-daemon[479]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.7' (uid=0 pid=480 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Sep 26 00:51:41 zhengyuanzhang-VirtualBox whoopsie[639]: [00:51:41] offline
+Sep 26 00:51:41 zhengyuanzhang-VirtualBox systemd[1]: Starting Network Manager Script Dispatcher Service...
+Sep 26 00:51:41 zhengyuanzhang-VirtualBox dbus-daemon[479]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Sep 26 00:51:41 zhengyuanzhang-VirtualBox systemd[1]: Started Network Manager Script Dispatcher Service.
+Sep 26 00:51:41 zhengyuanzhang-VirtualBox NetworkManager[480]: <info>  [1601052701.8766] manager: NetworkManager state is now CONNECTED_GLOBAL
+Sep 26 00:51:41 zhengyuanzhang-VirtualBox whoopsie[639]: [00:51:41] The default IPv4 route is: /org/freedesktop/NetworkManager/ActiveConnection/1
+Sep 26 00:51:41 zhengyuanzhang-VirtualBox whoopsie[639]: [00:51:41] Not a paid data plan: /org/freedesktop/NetworkManager/ActiveConnection/1
+Sep 26 00:51:41 zhengyuanzhang-VirtualBox whoopsie[639]: [00:51:41] Found usable connection: /org/freedesktop/NetworkManager/ActiveConnection/1
+Sep 26 00:51:43 zhengyuanzhang-VirtualBox whoopsie[639]: [00:51:43] online
+Sep 26 00:51:52 zhengyuanzhang-VirtualBox systemd[1]: NetworkManager-dispatcher.service: Succeeded.
+Sep 26 00:52:14 zhengyuanzhang-VirtualBox update-notifier.desktop[2423]: ERROR:root:Not enough free space: ['/']
+Sep 26 00:55:01 zhengyuanzhang-VirtualBox CRON[31167]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Sep 26 00:59:55 zhengyuanzhang-VirtualBox dbus-daemon[479]: [system] Activating via systemd: service name='net.reactivated.Fprint' unit='fprintd.service' requested by ':1.47' (uid=1000 pid=1221 comm="/usr/bin/gnome-shell " label="unconfined")
+Sep 26 00:59:55 zhengyuanzhang-VirtualBox systemd[1]: Starting Fingerprint Authentication Daemon...
+Sep 26 00:59:55 zhengyuanzhang-VirtualBox dbus-daemon[479]: [system] Successfully activated service 'net.reactivated.Fprint'
+Sep 26 00:59:55 zhengyuanzhang-VirtualBox systemd[1]: Started Fingerprint Authentication Daemon.
+Sep 26 01:00:01 zhengyuanzhang-VirtualBox NetworkManager[480]: <info>  [1601053201.5255] agent-manager: agent[6b8e3e92925ebff6,:1.47/org.gnome.Shell.NetworkAgent/1000]: agent registered
+Sep 26 01:00:01 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Activating service name='org.freedesktop.FileManager1' requested by ':1.58' (uid=1000 pid=1221 comm="/usr/bin/gnome-shell " label="unconfined")
+Sep 26 01:00:01 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Activating service name='org.gnome.Nautilus' requested by ':1.58' (uid=1000 pid=1221 comm="/usr/bin/gnome-shell " label="unconfined")
+Sep 26 01:00:01 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Successfully activated service 'org.gnome.Nautilus'
+Sep 26 01:00:01 zhengyuanzhang-VirtualBox org.gnome.Nautilus[31220]: Failed to register: Unable to acquire bus name 'org.gnome.Nautilus'
+Sep 26 01:00:02 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Successfully activated service 'org.freedesktop.FileManager1'
+Sep 26 01:00:02 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 32 with keysym 32 (keycode b).
+Sep 26 01:00:02 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 31 with keysym 31 (keycode a).
+Sep 26 01:00:02 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 38 with keysym 38 (keycode 11).
+Sep 26 01:00:02 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 39 with keysym 39 (keycode 12).
+Sep 26 01:00:02 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 33 with keysym 33 (keycode c).
+Sep 26 01:00:02 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 34 with keysym 34 (keycode d).
+Sep 26 01:00:02 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 35 with keysym 35 (keycode e).
+Sep 26 01:00:02 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 36 with keysym 36 (keycode f).
+Sep 26 01:00:02 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 37 with keysym 37 (keycode 10).
+Sep 26 01:00:11 zhengyuanzhang-VirtualBox systemd[889]: Started Application launched by gnome-shell.
+Sep 26 01:00:11 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Activating via systemd: service name='org.gnome.Terminal' unit='gnome-terminal-server.service' requested by ':1.168' (uid=1000 pid=31246 comm="/usr/bin/gnome-terminal.real --window " label="unconfined")
+Sep 26 01:00:11 zhengyuanzhang-VirtualBox systemd[889]: Starting GNOME Terminal Server...
+Sep 26 01:00:12 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Successfully activated service 'org.gnome.Terminal'
+Sep 26 01:00:12 zhengyuanzhang-VirtualBox systemd[889]: Started GNOME Terminal Server.
+Sep 26 01:00:12 zhengyuanzhang-VirtualBox systemd[889]: Started VTE child process 31261 launched by gnome-terminal-server process 31249.
+Sep 26 01:00:12 zhengyuanzhang-VirtualBox systemd[889]: gnome-launched-org.gnome.Terminal.desktop-31243.scope: Succeeded.
+Sep 26 01:00:26 zhengyuanzhang-VirtualBox systemd[1]: fprintd.service: Succeeded.
+Sep 26 01:01:36 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Activating service name='org.gnome.Nautilus' requested by ':1.58' (uid=1000 pid=1221 comm="/usr/bin/gnome-shell " label="unconfined")
+Sep 26 01:01:36 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Successfully activated service 'org.gnome.Nautilus'
+Sep 26 01:01:36 zhengyuanzhang-VirtualBox dbus-daemon[479]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.168' (uid=1000 pid=31339 comm="/usr/bin/nautilus --gapplication-service " label="unconfined")
+Sep 26 01:01:36 zhengyuanzhang-VirtualBox systemd[1]: Starting Hostname Service...
+Sep 26 01:01:36 zhengyuanzhang-VirtualBox dbus-daemon[479]: [system] Successfully activated service 'org.freedesktop.hostname1'
+Sep 26 01:01:36 zhengyuanzhang-VirtualBox systemd[1]: Started Hostname Service.
+Sep 26 01:01:36 zhengyuanzhang-VirtualBox nautilus[31339]: Called "net usershare info" but it failed: Failed to execute child process “net” (No such file or directory)
+Sep 26 01:02:06 zhengyuanzhang-VirtualBox systemd[1]: systemd-hostnamed.service: Succeeded.
+Sep 26 01:03:15 zhengyuanzhang-VirtualBox nautilus[31339]: nautilus_menu_provider_get_background_items: assertion 'NAUTILUS_IS_FILE_INFO (current_folder)' failed
+Sep 26 01:03:15 zhengyuanzhang-VirtualBox nautilus[31339]: message repeated 4 times: [ nautilus_menu_provider_get_background_items: assertion 'NAUTILUS_IS_FILE_INFO (current_folder)' failed]
+Sep 26 01:03:15 zhengyuanzhang-VirtualBox nautilus[31339]: nautilus_file_get_location: assertion 'NAUTILUS_IS_FILE (file)' failed
+Sep 26 01:03:15 zhengyuanzhang-VirtualBox nautilus[31339]: g_file_get_uri: assertion 'G_IS_FILE (file)' failed
+Sep 26 01:03:15 zhengyuanzhang-VirtualBox nautilus[31339]: g_file_equal: assertion 'G_IS_FILE (file1)' failed
+Sep 26 01:03:15 zhengyuanzhang-VirtualBox nautilus[31339]: g_file_has_prefix: assertion 'G_IS_FILE (file)' failed
+Sep 26 01:03:15 zhengyuanzhang-VirtualBox nautilus[31339]: g_file_equal: assertion 'G_IS_FILE (file1)' failed
+Sep 26 01:03:15 zhengyuanzhang-VirtualBox nautilus[31339]: g_file_has_prefix: assertion 'G_IS_FILE (file)' failed
+Sep 26 01:03:15 zhengyuanzhang-VirtualBox nautilus[31339]: g_file_equal: assertion 'G_IS_FILE (file1)' failed
+Sep 26 01:03:15 zhengyuanzhang-VirtualBox nautilus[31339]: g_file_has_prefix: assertion 'G_IS_FILE (file)' failed
+Sep 26 01:03:15 zhengyuanzhang-VirtualBox nautilus[31339]: g_file_equal: assertion 'G_IS_FILE (file1)' failed
+Sep 26 01:03:15 zhengyuanzhang-VirtualBox nautilus[31339]: g_file_has_prefix: assertion 'G_IS_FILE (file)' failed
+Sep 26 01:03:15 zhengyuanzhang-VirtualBox nautilus[31339]: g_file_equal: assertion 'G_IS_FILE (file1)' failed
+Sep 26 01:03:15 zhengyuanzhang-VirtualBox nautilus[31339]: g_file_has_prefix: assertion 'G_IS_FILE (file)' failed
+Sep 26 01:03:15 zhengyuanzhang-VirtualBox nautilus[31339]: g_file_equal: assertion 'G_IS_FILE (file1)' failed
+Sep 26 01:03:15 zhengyuanzhang-VirtualBox nautilus[31339]: g_file_equal: assertion 'G_IS_FILE (file1)' failed
+Sep 26 01:04:56 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.2' (uid=1000 pid=899 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Sep 26 01:04:56 zhengyuanzhang-VirtualBox systemd[889]: Starting Tracker metadata database store and lookup manager...
+Sep 26 01:04:56 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Successfully activated service 'org.freedesktop.Tracker1'
+Sep 26 01:04:56 zhengyuanzhang-VirtualBox systemd[889]: Started Tracker metadata database store and lookup manager.
+Sep 26 01:05:01 zhengyuanzhang-VirtualBox CRON[31447]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Sep 26 01:05:39 zhengyuanzhang-VirtualBox tracker-store[31439]: OK
+Sep 26 01:05:39 zhengyuanzhang-VirtualBox systemd[889]: tracker-store.service: Succeeded.
+Sep 26 01:05:42 zhengyuanzhang-VirtualBox nautilus[31339]: nautilus_menu_provider_get_background_items: assertion 'NAUTILUS_IS_FILE_INFO (current_folder)' failed
+Sep 26 01:05:42 zhengyuanzhang-VirtualBox nautilus[31339]: message repeated 4 times: [ nautilus_menu_provider_get_background_items: assertion 'NAUTILUS_IS_FILE_INFO (current_folder)' failed]
+Sep 26 01:05:42 zhengyuanzhang-VirtualBox nautilus[31339]: nautilus_file_get_location: assertion 'NAUTILUS_IS_FILE (file)' failed
+Sep 26 01:05:42 zhengyuanzhang-VirtualBox nautilus[31339]: g_file_get_uri: assertion 'G_IS_FILE (file)' failed
+Sep 26 01:05:42 zhengyuanzhang-VirtualBox nautilus[31339]: g_file_equal: assertion 'G_IS_FILE (file1)' failed
+Sep 26 01:05:42 zhengyuanzhang-VirtualBox nautilus[31339]: g_file_has_prefix: assertion 'G_IS_FILE (file)' failed
+Sep 26 01:05:42 zhengyuanzhang-VirtualBox nautilus[31339]: g_file_equal: assertion 'G_IS_FILE (file1)' failed
+Sep 26 01:05:42 zhengyuanzhang-VirtualBox nautilus[31339]: g_file_has_prefix: assertion 'G_IS_FILE (file)' failed
+Sep 26 01:05:42 zhengyuanzhang-VirtualBox nautilus[31339]: g_file_equal: assertion 'G_IS_FILE (file1)' failed
+Sep 26 01:05:42 zhengyuanzhang-VirtualBox nautilus[31339]: g_file_has_prefix: assertion 'G_IS_FILE (file)' failed
+Sep 26 01:05:42 zhengyuanzhang-VirtualBox nautilus[31339]: g_file_equal: assertion 'G_IS_FILE (file1)' failed
+Sep 26 01:05:42 zhengyuanzhang-VirtualBox nautilus[31339]: g_file_has_prefix: assertion 'G_IS_FILE (file)' failed
+Sep 26 01:05:42 zhengyuanzhang-VirtualBox nautilus[31339]: g_file_equal: assertion 'G_IS_FILE (file1)' failed
+Sep 26 01:05:42 zhengyuanzhang-VirtualBox nautilus[31339]: g_file_has_prefix: assertion 'G_IS_FILE (file)' failed
+Sep 26 01:05:42 zhengyuanzhang-VirtualBox nautilus[31339]: g_file_equal: assertion 'G_IS_FILE (file1)' failed
+Sep 26 01:05:42 zhengyuanzhang-VirtualBox nautilus[31339]: g_file_equal: assertion 'G_IS_FILE (file1)' failed
+Sep 26 01:07:01 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.2' (uid=1000 pid=899 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Sep 26 01:07:01 zhengyuanzhang-VirtualBox systemd[889]: Starting Tracker metadata database store and lookup manager...
+Sep 26 01:07:01 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Successfully activated service 'org.freedesktop.Tracker1'
+Sep 26 01:07:01 zhengyuanzhang-VirtualBox systemd[889]: Started Tracker metadata database store and lookup manager.
+Sep 26 01:07:01 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Activating via systemd: service name='org.freedesktop.Tracker1.Miner.Extract' unit='tracker-extract.service' requested by ':1.2' (uid=1000 pid=899 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Sep 26 01:07:01 zhengyuanzhang-VirtualBox systemd[889]: Starting Tracker metadata extractor...
+Sep 26 01:07:01 zhengyuanzhang-VirtualBox tracker-extract[31488]: Set scheduler policy to SCHED_IDLE
+Sep 26 01:07:01 zhengyuanzhang-VirtualBox tracker-extract[31488]: Setting priority nice level to 19
+Sep 26 01:07:01 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Successfully activated service 'org.freedesktop.Tracker1.Miner.Extract'
+Sep 26 01:07:01 zhengyuanzhang-VirtualBox systemd[889]: Started Tracker metadata extractor.
+Sep 26 01:07:12 zhengyuanzhang-VirtualBox systemd[889]: tracker-extract.service: Succeeded.
+Sep 26 01:07:32 zhengyuanzhang-VirtualBox tracker-store[31479]: OK
+Sep 26 01:07:32 zhengyuanzhang-VirtualBox systemd[889]: tracker-store.service: Succeeded.
+Sep 26 01:08:32 zhengyuanzhang-VirtualBox nautilus[31339]: nautilus_menu_provider_get_background_items: assertion 'NAUTILUS_IS_FILE_INFO (current_folder)' failed
+Sep 26 01:08:32 zhengyuanzhang-VirtualBox nautilus[31339]: message repeated 4 times: [ nautilus_menu_provider_get_background_items: assertion 'NAUTILUS_IS_FILE_INFO (current_folder)' failed]
+Sep 26 01:08:32 zhengyuanzhang-VirtualBox nautilus[31339]: nautilus_file_get_location: assertion 'NAUTILUS_IS_FILE (file)' failed
+Sep 26 01:08:32 zhengyuanzhang-VirtualBox nautilus[31339]: g_file_get_uri: assertion 'G_IS_FILE (file)' failed
+Sep 26 01:08:32 zhengyuanzhang-VirtualBox nautilus[31339]: g_file_equal: assertion 'G_IS_FILE (file1)' failed
+Sep 26 01:08:32 zhengyuanzhang-VirtualBox nautilus[31339]: g_file_has_prefix: assertion 'G_IS_FILE (file)' failed
+Sep 26 01:08:32 zhengyuanzhang-VirtualBox nautilus[31339]: g_file_equal: assertion 'G_IS_FILE (file1)' failed
+Sep 26 01:08:32 zhengyuanzhang-VirtualBox nautilus[31339]: g_file_has_prefix: assertion 'G_IS_FILE (file)' failed
+Sep 26 01:08:32 zhengyuanzhang-VirtualBox nautilus[31339]: g_file_equal: assertion 'G_IS_FILE (file1)' failed
+Sep 26 01:08:32 zhengyuanzhang-VirtualBox nautilus[31339]: g_file_has_prefix: assertion 'G_IS_FILE (file)' failed
+Sep 26 01:08:32 zhengyuanzhang-VirtualBox nautilus[31339]: g_file_equal: assertion 'G_IS_FILE (file1)' failed
+Sep 26 01:08:32 zhengyuanzhang-VirtualBox nautilus[31339]: g_file_has_prefix: assertion 'G_IS_FILE (file)' failed
+Sep 26 01:08:32 zhengyuanzhang-VirtualBox nautilus[31339]: g_file_equal: assertion 'G_IS_FILE (file1)' failed
+Sep 26 01:08:32 zhengyuanzhang-VirtualBox nautilus[31339]: g_file_has_prefix: assertion 'G_IS_FILE (file)' failed
+Sep 26 01:08:32 zhengyuanzhang-VirtualBox nautilus[31339]: g_file_equal: assertion 'G_IS_FILE (file1)' failed
+Sep 26 01:08:32 zhengyuanzhang-VirtualBox nautilus[31339]: g_file_equal: assertion 'G_IS_FILE (file1)' failed
+Sep 26 01:09:28 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.2' (uid=1000 pid=899 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Sep 26 01:09:28 zhengyuanzhang-VirtualBox systemd[889]: Starting Tracker metadata database store and lookup manager...
+Sep 26 01:09:28 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Successfully activated service 'org.freedesktop.Tracker1'
+Sep 26 01:09:28 zhengyuanzhang-VirtualBox systemd[889]: Started Tracker metadata database store and lookup manager.
+Sep 26 01:09:35 zhengyuanzhang-VirtualBox systemd[889]: Started Application launched by gnome-shell.
+Sep 26 01:09:36 zhengyuanzhang-VirtualBox rtkit-daemon[956]: Supervising 3 threads of 1 processes of 1 users.
+Sep 26 01:09:37 zhengyuanzhang-VirtualBox rtkit-daemon[956]: message repeated 5 times: [ Supervising 3 threads of 1 processes of 1 users.]
+Sep 26 01:09:37 zhengyuanzhang-VirtualBox rtkit-daemon[956]: Successfully made thread 31608 of process 31531 owned by '1000' RT at priority 10.
+Sep 26 01:09:37 zhengyuanzhang-VirtualBox rtkit-daemon[956]: Supervising 4 threads of 2 processes of 1 users.
+Sep 26 01:09:38 zhengyuanzhang-VirtualBox rtkit-daemon[956]: message repeated 6 times: [ Supervising 4 threads of 2 processes of 1 users.]
+Sep 26 01:09:39 zhengyuanzhang-VirtualBox systemd[889]: gnome-launched-firefox.desktop-31531.scope: Succeeded.
+Sep 26 01:09:53 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Activating service name='org.gnome.Nautilus' requested by ':1.58' (uid=1000 pid=1221 comm="/usr/bin/gnome-shell " label="unconfined")
+Sep 26 01:09:54 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Successfully activated service 'org.gnome.Nautilus'
+Sep 26 01:09:54 zhengyuanzhang-VirtualBox dbus-daemon[479]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.177' (uid=1000 pid=31722 comm="/usr/bin/nautilus --gapplication-service " label="unconfined")
+Sep 26 01:09:54 zhengyuanzhang-VirtualBox systemd[1]: Starting Hostname Service...
+Sep 26 01:09:54 zhengyuanzhang-VirtualBox dbus-daemon[479]: [system] Successfully activated service 'org.freedesktop.hostname1'
+Sep 26 01:09:54 zhengyuanzhang-VirtualBox systemd[1]: Started Hostname Service.
+Sep 26 01:09:54 zhengyuanzhang-VirtualBox nautilus[31722]: Called "net usershare info" but it failed: Failed to execute child process “net” (No such file or directory)
+Sep 26 01:09:58 zhengyuanzhang-VirtualBox tracker-store[31523]: OK
+Sep 26 01:09:58 zhengyuanzhang-VirtualBox systemd[889]: tracker-store.service: Succeeded.
+Sep 26 01:10:24 zhengyuanzhang-VirtualBox systemd[1]: systemd-hostnamed.service: Succeeded.
+Sep 26 01:10:45 zhengyuanzhang-VirtualBox systemd[889]: vte-spawn-a819b8ee-e3e8-4e9b-8188-63765debe7f6.scope: Succeeded.
+Sep 26 01:10:45 zhengyuanzhang-VirtualBox systemd[889]: gnome-terminal-server.service: Succeeded.
+Sep 26 01:11:12 zhengyuanzhang-VirtualBox nautilus[31722]: Called "net usershare info" but it failed: Failed to execute child process “net” (No such file or directory)
+Sep 26 01:15:01 zhengyuanzhang-VirtualBox CRON[31879]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Sep 26 01:17:01 zhengyuanzhang-VirtualBox CRON[31967]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Sep 26 01:21:28 zhengyuanzhang-VirtualBox systemd[1]: Starting Daily apt download activities...
+Sep 26 01:21:28 zhengyuanzhang-VirtualBox systemd-resolved[437]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Sep 26 01:21:30 zhengyuanzhang-VirtualBox systemd-resolved[437]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Sep 26 01:21:33 zhengyuanzhang-VirtualBox dbus-daemon[479]: [system] Activating via systemd: service name='org.freedesktop.PackageKit' unit='packagekit.service' requested by ':1.181' (uid=0 pid=32291 comm="/usr/bin/gdbus call --system --dest org.freedeskto" label="unconfined")
+Sep 26 01:21:33 zhengyuanzhang-VirtualBox systemd[1]: Starting PackageKit Daemon...
+Sep 26 01:21:33 zhengyuanzhang-VirtualBox PackageKit: daemon start
+Sep 26 01:21:33 zhengyuanzhang-VirtualBox dbus-daemon[479]: [system] Successfully activated service 'org.freedesktop.PackageKit'
+Sep 26 01:21:33 zhengyuanzhang-VirtualBox systemd[1]: Started PackageKit Daemon.
+Sep 26 01:21:39 zhengyuanzhang-VirtualBox systemd[1]: apt-daily.service: Succeeded.
+Sep 26 01:21:39 zhengyuanzhang-VirtualBox systemd[1]: Finished Daily apt download activities.
+Sep 26 01:22:15 zhengyuanzhang-VirtualBox dbus-daemon[479]: [system] Activating via systemd: service name='net.reactivated.Fprint' unit='fprintd.service' requested by ':1.47' (uid=1000 pid=1221 comm="/usr/bin/gnome-shell " label="unconfined")
+Sep 26 01:22:15 zhengyuanzhang-VirtualBox systemd[1]: Starting Fingerprint Authentication Daemon...
+Sep 26 01:22:15 zhengyuanzhang-VirtualBox dbus-daemon[479]: [system] Successfully activated service 'net.reactivated.Fprint'
+Sep 26 01:22:15 zhengyuanzhang-VirtualBox systemd[1]: Started Fingerprint Authentication Daemon.
+Sep 26 01:22:18 zhengyuanzhang-VirtualBox NetworkManager[480]: <info>  [1601054538.1193] agent-manager: agent[beeec01a21dd2456,:1.47/org.gnome.Shell.NetworkAgent/1000]: agent registered
+Sep 26 01:22:18 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 31 with keysym 31 (keycode a).
+Sep 26 01:22:18 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 32 with keysym 32 (keycode b).
+Sep 26 01:22:18 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 38 with keysym 38 (keycode 11).
+Sep 26 01:22:18 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 39 with keysym 39 (keycode 12).
+Sep 26 01:22:18 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 33 with keysym 33 (keycode c).
+Sep 26 01:22:18 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 34 with keysym 34 (keycode d).
+Sep 26 01:22:18 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 35 with keysym 35 (keycode e).
+Sep 26 01:22:18 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 36 with keysym 36 (keycode f).
+Sep 26 01:22:18 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 37 with keysym 37 (keycode 10).
+Sep 26 01:22:22 zhengyuanzhang-VirtualBox systemd[889]: Started Application launched by gnome-shell.
+Sep 26 01:22:23 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Activating via systemd: service name='org.gnome.Terminal' unit='gnome-terminal-server.service' requested by ':1.182' (uid=1000 pid=32545 comm="/usr/bin/gnome-terminal.real --window " label="unconfined")
+Sep 26 01:22:23 zhengyuanzhang-VirtualBox systemd[889]: Starting GNOME Terminal Server...
+Sep 26 01:22:23 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Successfully activated service 'org.gnome.Terminal'
+Sep 26 01:22:23 zhengyuanzhang-VirtualBox systemd[889]: Started GNOME Terminal Server.
+Sep 26 01:22:23 zhengyuanzhang-VirtualBox systemd[889]: Started VTE child process 32559 launched by gnome-terminal-server process 32548.
+Sep 26 01:22:23 zhengyuanzhang-VirtualBox systemd[889]: gnome-launched-org.gnome.Terminal.desktop-32542.scope: Succeeded.
+Sep 26 01:22:45 zhengyuanzhang-VirtualBox systemd[1]: fprintd.service: Succeeded.
+Sep 26 01:24:04 zhengyuanzhang-VirtualBox systemd[889]: vte-spawn-32bcfe4c-7de0-4e7e-80af-489212e541c0.scope: Succeeded.
+Sep 26 01:24:04 zhengyuanzhang-VirtualBox systemd[889]: gnome-terminal-server.service: Succeeded.
+Sep 26 01:24:05 zhengyuanzhang-VirtualBox gnome-shell[1221]: ../clutter/clutter/clutter-actor.c:10556: The clutter_actor_set_allocation() function can only be called from within the implementation of the ClutterActor::allocate() virtual function.
+Sep 26 01:24:06 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Activating via systemd: service name='org.gnome.Terminal' unit='gnome-terminal-server.service' requested by ':1.184' (uid=1000 pid=32604 comm="/usr/bin/gnome-terminal.real " label="unconfined")
+Sep 26 01:24:06 zhengyuanzhang-VirtualBox systemd[889]: Starting GNOME Terminal Server...
+Sep 26 01:24:06 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Successfully activated service 'org.gnome.Terminal'
+Sep 26 01:24:06 zhengyuanzhang-VirtualBox systemd[889]: Started GNOME Terminal Server.
+Sep 26 01:24:07 zhengyuanzhang-VirtualBox systemd[889]: Started VTE child process 32618 launched by gnome-terminal-server process 32607.
+Sep 26 01:24:15 zhengyuanzhang-VirtualBox gnome-shell[1221]: Error getting desktop unix mode: Gio.IOErrorEnum: Error when getting information for file “/home/zhengyuanzhang/桌面/.ssmtp.swpx”: 没有那个文件或目录
+Sep 26 01:24:28 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.2' (uid=1000 pid=899 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Sep 26 01:24:28 zhengyuanzhang-VirtualBox systemd[889]: Starting Tracker metadata database store and lookup manager...
+Sep 26 01:24:29 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Successfully activated service 'org.freedesktop.Tracker1'
+Sep 26 01:24:29 zhengyuanzhang-VirtualBox systemd[889]: Started Tracker metadata database store and lookup manager.
+Sep 26 01:24:59 zhengyuanzhang-VirtualBox tracker-store[32713]: OK
+Sep 26 01:24:59 zhengyuanzhang-VirtualBox systemd[889]: tracker-store.service: Succeeded.
+Sep 26 01:25:01 zhengyuanzhang-VirtualBox CRON[32769]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Sep 26 01:25:47 zhengyuanzhang-VirtualBox gnome-shell[1221]: Error getting desktop unix mode: Gio.IOErrorEnum: Error when getting information for file “/home/zhengyuanzhang/桌面/.ssmtp.swpx”: 没有那个文件或目录
+Sep 26 01:25:52 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.2' (uid=1000 pid=899 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Sep 26 01:25:52 zhengyuanzhang-VirtualBox systemd[889]: Starting Tracker metadata database store and lookup manager...
+Sep 26 01:25:52 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Successfully activated service 'org.freedesktop.Tracker1'
+Sep 26 01:25:52 zhengyuanzhang-VirtualBox systemd[889]: Started Tracker metadata database store and lookup manager.
+Sep 26 01:25:52 zhengyuanzhang-VirtualBox gnome-shell[1221]: Error getting desktop unix mode: Gio.IOErrorEnum: Error when getting information for file “/home/zhengyuanzhang/桌面/4913”: 没有那个文件或目录
+Sep 26 01:25:52 zhengyuanzhang-VirtualBox gnome-shell[1221]: Error getting desktop unix mode: Gio.IOErrorEnum: Error when getting information for file “/home/zhengyuanzhang/桌面/4913”: 没有那个文件或目录
+Sep 26 01:25:52 zhengyuanzhang-VirtualBox gnome-shell[1221]: Error getting the file info: Gio.IOErrorEnum: Error when getting information for file “/home/zhengyuanzhang/桌面/ssmtp~”: 没有那个文件或目录
+Sep 26 01:26:23 zhengyuanzhang-VirtualBox tracker-store[32776]: OK
+Sep 26 01:26:23 zhengyuanzhang-VirtualBox systemd[889]: tracker-store.service: Succeeded.
+Sep 26 01:26:39 zhengyuanzhang-VirtualBox PackageKit: daemon quit
+Sep 26 01:26:39 zhengyuanzhang-VirtualBox systemd[1]: packagekit.service: Succeeded.
+Sep 26 01:27:02 zhengyuanzhang-VirtualBox NetworkManager[480]: <info>  [1601054822.0856] manager: NetworkManager state is now CONNECTED_SITE
+Sep 26 01:27:02 zhengyuanzhang-VirtualBox dbus-daemon[479]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.7' (uid=0 pid=480 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Sep 26 01:27:02 zhengyuanzhang-VirtualBox whoopsie[639]: [01:27:02] offline
+Sep 26 01:27:02 zhengyuanzhang-VirtualBox systemd[1]: Starting Network Manager Script Dispatcher Service...
+Sep 26 01:27:02 zhengyuanzhang-VirtualBox dbus-daemon[479]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Sep 26 01:27:02 zhengyuanzhang-VirtualBox systemd[1]: Started Network Manager Script Dispatcher Service.
+Sep 26 01:27:02 zhengyuanzhang-VirtualBox NetworkManager[480]: <info>  [1601054822.9262] manager: NetworkManager state is now CONNECTED_GLOBAL
+Sep 26 01:27:02 zhengyuanzhang-VirtualBox whoopsie[639]: [01:27:02] The default IPv4 route is: /org/freedesktop/NetworkManager/ActiveConnection/1
+Sep 26 01:27:02 zhengyuanzhang-VirtualBox whoopsie[639]: [01:27:02] Not a paid data plan: /org/freedesktop/NetworkManager/ActiveConnection/1
+Sep 26 01:27:02 zhengyuanzhang-VirtualBox whoopsie[639]: [01:27:02] Found usable connection: /org/freedesktop/NetworkManager/ActiveConnection/1
+Sep 26 01:27:04 zhengyuanzhang-VirtualBox whoopsie[639]: [01:27:04] online
+Sep 26 01:27:13 zhengyuanzhang-VirtualBox systemd[1]: NetworkManager-dispatcher.service: Succeeded.
+Sep 26 01:28:48 zhengyuanzhang-VirtualBox /usr/lib/gdm3/gdm-x-session[907]: (EE) No surface to present from.
+Sep 26 01:28:49 zhengyuanzhang-VirtualBox /usr/lib/gdm3/gdm-x-session[907]: (EE) No surface to present from.
+Sep 26 01:28:49 zhengyuanzhang-VirtualBox gsd-color[1324]: unable to get EDID for xrandr-Virtual1: unable to get EDID for output
+Sep 26 01:28:49 zhengyuanzhang-VirtualBox gsd-color[1324]: message repeated 23 times: [ unable to get EDID for xrandr-Virtual1: unable to get EDID for output]
+Sep 26 01:28:49 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 31 with keysym 31 (keycode a).
+Sep 26 01:28:49 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 32 with keysym 32 (keycode b).
+Sep 26 01:28:49 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 33 with keysym 33 (keycode c).
+Sep 26 01:28:49 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 38 with keysym 38 (keycode 11).
+Sep 26 01:28:49 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 39 with keysym 39 (keycode 12).
+Sep 26 01:28:49 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 34 with keysym 34 (keycode d).
+Sep 26 01:28:49 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 35 with keysym 35 (keycode e).
+Sep 26 01:28:49 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 36 with keysym 36 (keycode f).
+Sep 26 01:28:49 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 37 with keysym 37 (keycode 10).
+Sep 26 01:28:49 zhengyuanzhang-VirtualBox gsd-color[1324]: unable to get EDID for xrandr-Virtual1: unable to get EDID for output
+Sep 26 01:28:50 zhengyuanzhang-VirtualBox gsd-color[1324]: message repeated 54 times: [ unable to get EDID for xrandr-Virtual1: unable to get EDID for output]
+Sep 26 01:28:50 zhengyuanzhang-VirtualBox gnome-shell[1221]: (../src/backends/meta-monitor.c:1541):meta_monitor_derive_current_mode: runtime check failed: (is_current_mode_known (monitor))
+Sep 26 01:28:50 zhengyuanzhang-VirtualBox /usr/lib/gdm3/gdm-x-session[907]: (EE) No surface to present from.
+Sep 26 01:28:50 zhengyuanzhang-VirtualBox /usr/lib/gdm3/gdm-x-session[907]: (EE) No surface to present from.
+Sep 26 01:28:51 zhengyuanzhang-VirtualBox gsd-color[1324]: unable to get EDID for xrandr-Virtual1: unable to get EDID for output
+Sep 26 01:28:51 zhengyuanzhang-VirtualBox gsd-color[1324]: message repeated 30 times: [ unable to get EDID for xrandr-Virtual1: unable to get EDID for output]
+Sep 26 01:28:51 zhengyuanzhang-VirtualBox /usr/lib/gdm3/gdm-x-session[907]: (EE) No surface to present from.
+Sep 26 01:28:51 zhengyuanzhang-VirtualBox /usr/lib/gdm3/gdm-x-session[907]: message repeated 3 times: [ (EE) No surface to present from.]
+Sep 26 01:28:51 zhengyuanzhang-VirtualBox gsd-color[1324]: unable to get EDID for xrandr-Virtual1: unable to get EDID for output
+Sep 26 01:28:51 zhengyuanzhang-VirtualBox gsd-color[1324]: message repeated 28 times: [ unable to get EDID for xrandr-Virtual1: unable to get EDID for output]
+Sep 26 01:28:51 zhengyuanzhang-VirtualBox /usr/lib/gdm3/gdm-x-session[907]: (EE) No surface to present from.
+Sep 26 01:28:51 zhengyuanzhang-VirtualBox gsd-color[1324]: unable to get EDID for xrandr-Virtual1: unable to get EDID for output
+Sep 26 01:28:51 zhengyuanzhang-VirtualBox /usr/lib/gdm3/gdm-x-session[907]: (EE) No surface to present from.
+Sep 26 01:28:52 zhengyuanzhang-VirtualBox /usr/lib/gdm3/gdm-x-session[907]: message repeated 18 times: [ (EE) No surface to present from.]
+Sep 26 01:28:52 zhengyuanzhang-VirtualBox gsd-color[1324]: unable to get EDID for xrandr-Virtual1: unable to get EDID for output
+Sep 26 01:28:53 zhengyuanzhang-VirtualBox gsd-color[1324]: message repeated 78 times: [ unable to get EDID for xrandr-Virtual1: unable to get EDID for output]
+Sep 26 01:28:53 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 31 with keysym 31 (keycode a).
+Sep 26 01:28:53 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 32 with keysym 32 (keycode b).
+Sep 26 01:28:53 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 33 with keysym 33 (keycode c).
+Sep 26 01:28:53 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 34 with keysym 34 (keycode d).
+Sep 26 01:28:53 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 38 with keysym 38 (keycode 11).
+Sep 26 01:28:53 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 39 with keysym 39 (keycode 12).
+Sep 26 01:28:53 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 35 with keysym 35 (keycode e).
+Sep 26 01:28:53 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 36 with keysym 36 (keycode f).
+Sep 26 01:28:53 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 37 with keysym 37 (keycode 10).
+Sep 26 01:28:53 zhengyuanzhang-VirtualBox gsd-color[1324]: unable to get EDID for xrandr-Virtual1: unable to get EDID for output
+Sep 26 01:28:55 zhengyuanzhang-VirtualBox gsd-color[1324]: message repeated 20 times: [ unable to get EDID for xrandr-Virtual1: unable to get EDID for output]
+Sep 26 01:28:55 zhengyuanzhang-VirtualBox /usr/lib/gdm3/gdm-x-session[907]: (EE) No surface to present from.
+Sep 26 01:28:55 zhengyuanzhang-VirtualBox /usr/lib/gdm3/gdm-x-session[907]: message repeated 3 times: [ (EE) No surface to present from.]
+Sep 26 01:28:55 zhengyuanzhang-VirtualBox gsd-color[1324]: unable to get EDID for xrandr-Virtual1: unable to get EDID for output
+Sep 26 01:28:55 zhengyuanzhang-VirtualBox gsd-color[1324]: message repeated 15 times: [ unable to get EDID for xrandr-Virtual1: unable to get EDID for output]
+Sep 26 01:28:55 zhengyuanzhang-VirtualBox /usr/lib/gdm3/gdm-x-session[907]: (EE) No surface to present from.
+Sep 26 01:28:55 zhengyuanzhang-VirtualBox /usr/lib/gdm3/gdm-x-session[907]: message repeated 3 times: [ (EE) No surface to present from.]
+Sep 26 01:28:55 zhengyuanzhang-VirtualBox gsd-color[1324]: unable to get EDID for xrandr-Virtual1: unable to get EDID for output
+Sep 26 01:28:56 zhengyuanzhang-VirtualBox gsd-color[1324]: message repeated 30 times: [ unable to get EDID for xrandr-Virtual1: unable to get EDID for output]
+Sep 26 01:28:56 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 31 with keysym 31 (keycode a).
+Sep 26 01:28:56 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 32 with keysym 32 (keycode b).
+Sep 26 01:28:56 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 33 with keysym 33 (keycode c).
+Sep 26 01:28:56 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 34 with keysym 34 (keycode d).
+Sep 26 01:28:56 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 35 with keysym 35 (keycode e).
+Sep 26 01:28:56 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 38 with keysym 38 (keycode 11).
+Sep 26 01:28:56 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 36 with keysym 36 (keycode f).
+Sep 26 01:28:56 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 37 with keysym 37 (keycode 10).
+Sep 26 01:28:56 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 39 with keysym 39 (keycode 12).
+Sep 26 01:29:06 zhengyuanzhang-VirtualBox /usr/lib/gdm3/gdm-x-session[907]: (EE) No surface to present from.
+Sep 26 01:29:06 zhengyuanzhang-VirtualBox gsd-color[1324]: unable to get EDID for xrandr-Virtual1: unable to get EDID for output
+Sep 26 01:29:06 zhengyuanzhang-VirtualBox gsd-color[1324]: message repeated 3 times: [ unable to get EDID for xrandr-Virtual1: unable to get EDID for output]
+Sep 26 01:29:06 zhengyuanzhang-VirtualBox /usr/lib/gdm3/gdm-x-session[907]: (EE) No surface to present from.
+Sep 26 01:29:07 zhengyuanzhang-VirtualBox gsd-color[1324]: unable to get EDID for xrandr-Virtual1: unable to get EDID for output
+Sep 26 01:29:07 zhengyuanzhang-VirtualBox gsd-color[1324]: message repeated 3 times: [ unable to get EDID for xrandr-Virtual1: unable to get EDID for output]
+Sep 26 01:29:07 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 31 with keysym 31 (keycode a).
+Sep 26 01:29:07 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 32 with keysym 32 (keycode b).
+Sep 26 01:29:07 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 33 with keysym 33 (keycode c).
+Sep 26 01:29:07 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 34 with keysym 34 (keycode d).
+Sep 26 01:29:07 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 38 with keysym 38 (keycode 11).
+Sep 26 01:29:07 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 39 with keysym 39 (keycode 12).
+Sep 26 01:29:07 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 35 with keysym 35 (keycode e).
+Sep 26 01:29:07 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 36 with keysym 36 (keycode f).
+Sep 26 01:29:07 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 37 with keysym 37 (keycode 10).
+Sep 26 01:29:30 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Activating service name='org.gnome.Nautilus' requested by ':1.58' (uid=1000 pid=1221 comm="/usr/bin/gnome-shell " label="unconfined")
+Sep 26 01:29:30 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Successfully activated service 'org.gnome.Nautilus'
+Sep 26 01:29:31 zhengyuanzhang-VirtualBox dbus-daemon[479]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.188' (uid=1000 pid=32877 comm="/usr/bin/nautilus --gapplication-service " label="unconfined")
+Sep 26 01:29:31 zhengyuanzhang-VirtualBox systemd[1]: Starting Hostname Service...
+Sep 26 01:29:31 zhengyuanzhang-VirtualBox dbus-daemon[479]: [system] Successfully activated service 'org.freedesktop.hostname1'
+Sep 26 01:29:31 zhengyuanzhang-VirtualBox systemd[1]: Started Hostname Service.
+Sep 26 01:29:31 zhengyuanzhang-VirtualBox nautilus[32877]: Called "net usershare info" but it failed: Failed to execute child process “net” (No such file or directory)
+Sep 26 01:30:01 zhengyuanzhang-VirtualBox systemd[1]: systemd-hostnamed.service: Succeeded.
+Sep 26 01:31:22 zhengyuanzhang-VirtualBox nautilus[32877]: Called "net usershare info" but it failed: Failed to execute child process “net” (No such file or directory)
+Sep 26 01:33:35 zhengyuanzhang-VirtualBox gnome-shell[1221]: ../clutter/clutter/clutter-actor.c:10556: The clutter_actor_set_allocation() function can only be called from within the implementation of the ClutterActor::allocate() virtual function.
+Sep 26 01:33:38 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Activating service name='org.gnome.Nautilus' requested by ':1.58' (uid=1000 pid=1221 comm="/usr/bin/gnome-shell " label="unconfined")
+Sep 26 01:33:38 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Successfully activated service 'org.gnome.Nautilus'
+Sep 26 01:33:38 zhengyuanzhang-VirtualBox dbus-daemon[479]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.190' (uid=1000 pid=32950 comm="/usr/bin/nautilus --gapplication-service " label="unconfined")
+Sep 26 01:33:38 zhengyuanzhang-VirtualBox systemd[1]: Starting Hostname Service...
+Sep 26 01:33:39 zhengyuanzhang-VirtualBox dbus-daemon[479]: [system] Successfully activated service 'org.freedesktop.hostname1'
+Sep 26 01:33:39 zhengyuanzhang-VirtualBox systemd[1]: Started Hostname Service.
+Sep 26 01:33:39 zhengyuanzhang-VirtualBox nautilus[32950]: Called "net usershare info" but it failed: Failed to execute child process “net” (No such file or directory)
+Sep 26 01:34:09 zhengyuanzhang-VirtualBox systemd[1]: systemd-hostnamed.service: Succeeded.
+Sep 26 01:34:31 zhengyuanzhang-VirtualBox nautilus[32950]: Called "net usershare info" but it failed: Failed to execute child process “net” (No such file or directory)
+Sep 26 01:34:47 zhengyuanzhang-VirtualBox gnome-shell[1221]: pushModal: invocation of begin_modal failed
+Sep 26 01:34:47 zhengyuanzhang-VirtualBox gnome-shell[1221]: polkitAuthenticationAgent: Failed to show modal dialog. Dismissing authentication request for action-id org.gtk.vfs.file-operations-helper cookie 1-02f5755381e15c2007ad0c6d7b95a551-1-54587e0843f43dd511896bce49a078f1
+Sep 26 01:34:47 zhengyuanzhang-VirtualBox gvfsd[33031]: Error executing command as another user: Request dismissed
+Sep 26 01:34:55 zhengyuanzhang-VirtualBox nautilus[32950]: Called "net usershare info" but it failed: Failed to execute child process “net” (No such file or directory)
+Sep 26 01:35:01 zhengyuanzhang-VirtualBox CRON[33046]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Sep 26 01:35:06 zhengyuanzhang-VirtualBox gnome-shell[1221]: Object St.BoxLayout (0x5653d2bf4a80), has been already deallocated — impossible to access it. This might be caused by the object having been destroyed from C code using something such as destroy(), dispose(), or remove() vfuncs.
+Sep 26 01:35:06 zhengyuanzhang-VirtualBox gnome-shell[1221]: == Stack trace for context 0x5653d12fa6f0 ==
+Sep 26 01:35:06 zhengyuanzhang-VirtualBox gnome-shell[1221]: #0   5653d6fe8770 i   /usr/share/gnome-shell/extensions/desktop-icons@csoriano/fileItem.js:830 (24b352eaed30 @ 123)
+Sep 26 01:35:06 zhengyuanzhang-VirtualBox gnome-shell[1221]: #1   5653d6fe8698 i   /usr/share/gnome-shell/extensions/desktop-icons@csoriano/desktopManager.js:699 (24b352e97358 @ 370)
+Sep 26 01:35:06 zhengyuanzhang-VirtualBox gnome-shell[1221]: #2   5653d6fe8608 i   /usr/share/gnome-shell/extensions/desktop-icons@csoriano/desktopManager.js:185 (24b352e92b50 @ 17)
+Sep 26 01:35:06 zhengyuanzhang-VirtualBox gnome-shell[1221]: #3   5653d6fe8580 i   /usr/share/gnome-shell/extensions/desktop-icons@csoriano/desktopManager.js:83 (24b352e92718 @ 12)
+Sep 26 01:35:06 zhengyuanzhang-VirtualBox gnome-shell[1221]: #4   5653d6fe84e8 i   resource:///org/gnome/shell/ui/layout.js:548 (155e013f5e20 @ 127)
+Sep 26 01:35:06 zhengyuanzhang-VirtualBox gnome-shell[1221]: #5   7ffffcf1e410 b   self-hosted:1009 (155e013d59e8 @ 423)
+Sep 26 01:35:06 zhengyuanzhang-VirtualBox gnome-shell[1221]: st_widget_set_style: assertion 'ST_IS_WIDGET (actor)' failed
+Sep 26 01:35:06 zhengyuanzhang-VirtualBox gnome-shell[1221]: Object St.BoxLayout (0x5653d2bf4a80), has been already deallocated — impossible to access it. This might be caused by the object having been destroyed from C code using something such as destroy(), dispose(), or remove() vfuncs.
+Sep 26 01:35:06 zhengyuanzhang-VirtualBox gnome-shell[1221]: == Stack trace for context 0x5653d12fa6f0 ==
+Sep 26 01:35:06 zhengyuanzhang-VirtualBox gnome-shell[1221]: #0   5653d6fe8770 i   /usr/share/gnome-shell/extensions/desktop-icons@csoriano/fileItem.js:831 (24b352eaed30 @ 148)
+Sep 26 01:35:06 zhengyuanzhang-VirtualBox gnome-shell[1221]: #1   5653d6fe8698 i   /usr/share/gnome-shell/extensions/desktop-icons@csoriano/desktopManager.js:699 (24b352e97358 @ 370)
+Sep 26 01:35:06 zhengyuanzhang-VirtualBox gnome-shell[1221]: #2   5653d6fe8608 i   /usr/share/gnome-shell/extensions/desktop-icons@csoriano/desktopManager.js:185 (24b352e92b50 @ 17)
+Sep 26 01:35:06 zhengyuanzhang-VirtualBox gnome-shell[1221]: #3   5653d6fe8580 i   /usr/share/gnome-shell/extensions/desktop-icons@csoriano/desktopManager.js:83 (24b352e92718 @ 12)
+Sep 26 01:35:06 zhengyuanzhang-VirtualBox gnome-shell[1221]: #4   5653d6fe84e8 i   resource:///org/gnome/shell/ui/layout.js:548 (155e013f5e20 @ 127)
+Sep 26 01:35:06 zhengyuanzhang-VirtualBox gnome-shell[1221]: #5   7ffffcf1e410 b   self-hosted:1009 (155e013d59e8 @ 423)
+Sep 26 01:35:06 zhengyuanzhang-VirtualBox gnome-shell[1221]: st_widget_set_style: assertion 'ST_IS_WIDGET (actor)' failed
+Sep 26 01:35:06 zhengyuanzhang-VirtualBox gsd-color[1324]: unable to get EDID for xrandr-Virtual1: unable to get EDID for output
+Sep 26 01:35:06 zhengyuanzhang-VirtualBox gsd-color[1324]: message repeated 3 times: [ unable to get EDID for xrandr-Virtual1: unable to get EDID for output]
+Sep 26 01:35:06 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 31 with keysym 31 (keycode a).
+Sep 26 01:35:06 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 32 with keysym 32 (keycode b).
+Sep 26 01:35:06 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 33 with keysym 33 (keycode c).
+Sep 26 01:35:06 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 34 with keysym 34 (keycode d).
+Sep 26 01:35:06 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 38 with keysym 38 (keycode 11).
+Sep 26 01:35:06 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 35 with keysym 35 (keycode e).
+Sep 26 01:35:06 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 36 with keysym 36 (keycode f).
+Sep 26 01:35:06 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 37 with keysym 37 (keycode 10).
+Sep 26 01:35:06 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 39 with keysym 39 (keycode 12).
+Sep 26 01:35:47 zhengyuanzhang-VirtualBox nautilus[32950]: Called "net usershare info" but it failed: Failed to execute child process “net” (No such file or directory)
+Sep 26 01:35:51 zhengyuanzhang-VirtualBox /usr/lib/gdm3/gdm-x-session[907]: (EE) No surface to present from.
+Sep 26 01:35:51 zhengyuanzhang-VirtualBox /usr/lib/gdm3/gdm-x-session[907]: (EE) No surface to present from.
+Sep 26 01:35:51 zhengyuanzhang-VirtualBox gsd-color[1324]: unable to get EDID for xrandr-Virtual1: unable to get EDID for output
+Sep 26 01:35:51 zhengyuanzhang-VirtualBox gsd-color[1324]: message repeated 5 times: [ unable to get EDID for xrandr-Virtual1: unable to get EDID for output]
+Sep 26 01:35:51 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 31 with keysym 31 (keycode a).
+Sep 26 01:35:51 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 32 with keysym 32 (keycode b).
+Sep 26 01:35:51 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 33 with keysym 33 (keycode c).
+Sep 26 01:35:51 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 34 with keysym 34 (keycode d).
+Sep 26 01:35:51 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 35 with keysym 35 (keycode e).
+Sep 26 01:35:51 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 38 with keysym 38 (keycode 11).
+Sep 26 01:35:51 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 39 with keysym 39 (keycode 12).
+Sep 26 01:35:51 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 36 with keysym 36 (keycode f).
+Sep 26 01:35:51 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 37 with keysym 37 (keycode 10).
+Sep 26 01:38:10 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Activating service name='org.gnome.Nautilus' requested by ':1.58' (uid=1000 pid=1221 comm="/usr/bin/gnome-shell " label="unconfined")
+Sep 26 01:38:10 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Successfully activated service 'org.gnome.Nautilus'
+Sep 26 01:38:10 zhengyuanzhang-VirtualBox dbus-daemon[479]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.193' (uid=1000 pid=33072 comm="/usr/bin/nautilus --gapplication-service " label="unconfined")
+Sep 26 01:38:10 zhengyuanzhang-VirtualBox systemd[1]: Starting Hostname Service...
+Sep 26 01:38:10 zhengyuanzhang-VirtualBox dbus-daemon[479]: [system] Successfully activated service 'org.freedesktop.hostname1'
+Sep 26 01:38:10 zhengyuanzhang-VirtualBox systemd[1]: Started Hostname Service.
+Sep 26 01:38:10 zhengyuanzhang-VirtualBox nautilus[33072]: Called "net usershare info" but it failed: Failed to execute child process “net” (No such file or directory)
+Sep 26 01:38:40 zhengyuanzhang-VirtualBox systemd[1]: systemd-hostnamed.service: Succeeded.
+Sep 26 01:43:40 zhengyuanzhang-VirtualBox nautilus[33072]: Called "net usershare info" but it failed: Failed to execute child process “net” (No such file or directory)
+Sep 26 01:43:48 zhengyuanzhang-VirtualBox gnome-shell[1221]: pushModal: invocation of begin_modal failed
+Sep 26 01:43:48 zhengyuanzhang-VirtualBox gnome-shell[1221]: polkitAuthenticationAgent: Failed to show modal dialog. Dismissing authentication request for action-id org.gtk.vfs.file-operations-helper cookie 1-02f5755381e15c2007ad0c6d7b95a551-2-c6527f16f5a601a1ec53edcf31de5af0
+Sep 26 01:43:48 zhengyuanzhang-VirtualBox gvfsd[33240]: Error executing command as another user: Request dismissed
+Sep 26 01:45:01 zhengyuanzhang-VirtualBox CRON[33249]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Sep 26 01:47:22 zhengyuanzhang-VirtualBox NetworkManager[480]: <info>  [1601056042.0856] manager: NetworkManager state is now CONNECTED_SITE
+Sep 26 01:47:22 zhengyuanzhang-VirtualBox whoopsie[639]: [01:47:22] offline
+Sep 26 01:47:22 zhengyuanzhang-VirtualBox dbus-daemon[479]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.7' (uid=0 pid=480 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Sep 26 01:47:22 zhengyuanzhang-VirtualBox systemd[1]: Starting Network Manager Script Dispatcher Service...
+Sep 26 01:47:22 zhengyuanzhang-VirtualBox dbus-daemon[479]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Sep 26 01:47:22 zhengyuanzhang-VirtualBox systemd[1]: Started Network Manager Script Dispatcher Service.
+Sep 26 01:47:22 zhengyuanzhang-VirtualBox NetworkManager[480]: <info>  [1601056042.9374] manager: NetworkManager state is now CONNECTED_GLOBAL
+Sep 26 01:47:22 zhengyuanzhang-VirtualBox whoopsie[639]: [01:47:22] The default IPv4 route is: /org/freedesktop/NetworkManager/ActiveConnection/1
+Sep 26 01:47:22 zhengyuanzhang-VirtualBox whoopsie[639]: [01:47:22] Not a paid data plan: /org/freedesktop/NetworkManager/ActiveConnection/1
+Sep 26 01:47:22 zhengyuanzhang-VirtualBox whoopsie[639]: [01:47:22] Found usable connection: /org/freedesktop/NetworkManager/ActiveConnection/1
+Sep 26 01:47:24 zhengyuanzhang-VirtualBox whoopsie[639]: [01:47:24] online
+Sep 26 01:47:33 zhengyuanzhang-VirtualBox systemd[1]: NetworkManager-dispatcher.service: Succeeded.
+Sep 26 01:48:18 zhengyuanzhang-VirtualBox gnome-shell[1221]: Object St.BoxLayout (0x5653d5222480), has been already deallocated — impossible to access it. This might be caused by the object having been destroyed from C code using something such as destroy(), dispose(), or remove() vfuncs.
+Sep 26 01:48:18 zhengyuanzhang-VirtualBox gnome-shell[1221]: == Stack trace for context 0x5653d12fa6f0 ==
+Sep 26 01:48:18 zhengyuanzhang-VirtualBox gnome-shell[1221]: #0   5653d27f5570 i   /usr/share/gnome-shell/extensions/desktop-icons@csoriano/fileItem.js:830 (24b352eaed30 @ 123)
+Sep 26 01:48:18 zhengyuanzhang-VirtualBox gnome-shell[1221]: #1   5653d27f5498 i   /usr/share/gnome-shell/extensions/desktop-icons@csoriano/desktopManager.js:699 (24b352e97358 @ 370)
+Sep 26 01:48:18 zhengyuanzhang-VirtualBox gnome-shell[1221]: #2   5653d27f5408 i   /usr/share/gnome-shell/extensions/desktop-icons@csoriano/desktopManager.js:185 (24b352e92b50 @ 17)
+Sep 26 01:48:18 zhengyuanzhang-VirtualBox gnome-shell[1221]: #3   5653d27f5380 i   /usr/share/gnome-shell/extensions/desktop-icons@csoriano/desktopManager.js:83 (24b352e92718 @ 12)
+Sep 26 01:48:18 zhengyuanzhang-VirtualBox gnome-shell[1221]: #4   5653d27f52e8 i   resource:///org/gnome/shell/ui/layout.js:548 (155e013f5e20 @ 127)
+Sep 26 01:48:18 zhengyuanzhang-VirtualBox gnome-shell[1221]: #5   7ffffcf1e410 b   self-hosted:1009 (155e013d59e8 @ 423)
+Sep 26 01:48:18 zhengyuanzhang-VirtualBox gnome-shell[1221]: st_widget_set_style: assertion 'ST_IS_WIDGET (actor)' failed
+Sep 26 01:48:18 zhengyuanzhang-VirtualBox gnome-shell[1221]: Object St.BoxLayout (0x5653d5222480), has been already deallocated — impossible to access it. This might be caused by the object having been destroyed from C code using something such as destroy(), dispose(), or remove() vfuncs.
+Sep 26 01:48:18 zhengyuanzhang-VirtualBox gnome-shell[1221]: == Stack trace for context 0x5653d12fa6f0 ==
+Sep 26 01:48:18 zhengyuanzhang-VirtualBox gnome-shell[1221]: #0   5653d27f5570 i   /usr/share/gnome-shell/extensions/desktop-icons@csoriano/fileItem.js:831 (24b352eaed30 @ 148)
+Sep 26 01:48:18 zhengyuanzhang-VirtualBox gnome-shell[1221]: #1   5653d27f5498 i   /usr/share/gnome-shell/extensions/desktop-icons@csoriano/desktopManager.js:699 (24b352e97358 @ 370)
+Sep 26 01:48:18 zhengyuanzhang-VirtualBox gnome-shell[1221]: #2   5653d27f5408 i   /usr/share/gnome-shell/extensions/desktop-icons@csoriano/desktopManager.js:185 (24b352e92b50 @ 17)
+Sep 26 01:48:18 zhengyuanzhang-VirtualBox gnome-shell[1221]: #3   5653d27f5380 i   /usr/share/gnome-shell/extensions/desktop-icons@csoriano/desktopManager.js:83 (24b352e92718 @ 12)
+Sep 26 01:48:18 zhengyuanzhang-VirtualBox gnome-shell[1221]: #4   5653d27f52e8 i   resource:///org/gnome/shell/ui/layout.js:548 (155e013f5e20 @ 127)
+Sep 26 01:48:18 zhengyuanzhang-VirtualBox gnome-shell[1221]: #5   7ffffcf1e410 b   self-hosted:1009 (155e013d59e8 @ 423)
+Sep 26 01:48:18 zhengyuanzhang-VirtualBox gnome-shell[1221]: st_widget_set_style: assertion 'ST_IS_WIDGET (actor)' failed
+Sep 26 01:48:18 zhengyuanzhang-VirtualBox gsd-color[1324]: unable to get EDID for xrandr-Virtual1: unable to get EDID for output
+Sep 26 01:48:18 zhengyuanzhang-VirtualBox gsd-color[1324]: message repeated 3 times: [ unable to get EDID for xrandr-Virtual1: unable to get EDID for output]
+Sep 26 01:48:18 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 31 with keysym 31 (keycode a).
+Sep 26 01:48:18 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 32 with keysym 32 (keycode b).
+Sep 26 01:48:18 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 33 with keysym 33 (keycode c).
+Sep 26 01:48:18 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 34 with keysym 34 (keycode d).
+Sep 26 01:48:18 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 35 with keysym 35 (keycode e).
+Sep 26 01:48:18 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 38 with keysym 38 (keycode 11).
+Sep 26 01:48:18 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 39 with keysym 39 (keycode 12).
+Sep 26 01:48:18 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 36 with keysym 36 (keycode f).
+Sep 26 01:48:18 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 37 with keysym 37 (keycode 10).
+Sep 26 01:48:29 zhengyuanzhang-VirtualBox /usr/lib/gdm3/gdm-x-session[907]: (EE) No surface to present from.
+Sep 26 01:48:29 zhengyuanzhang-VirtualBox /usr/lib/gdm3/gdm-x-session[907]: message repeated 3 times: [ (EE) No surface to present from.]
+Sep 26 01:48:29 zhengyuanzhang-VirtualBox gsd-color[1324]: unable to get EDID for xrandr-Virtual1: unable to get EDID for output
+Sep 26 01:48:29 zhengyuanzhang-VirtualBox gsd-color[1324]: message repeated 13 times: [ unable to get EDID for xrandr-Virtual1: unable to get EDID for output]
+Sep 26 01:48:29 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 31 with keysym 31 (keycode a).
+Sep 26 01:48:29 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 32 with keysym 32 (keycode b).
+Sep 26 01:48:29 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 33 with keysym 33 (keycode c).
+Sep 26 01:48:29 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 34 with keysym 34 (keycode d).
+Sep 26 01:48:29 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 35 with keysym 35 (keycode e).
+Sep 26 01:48:29 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 36 with keysym 36 (keycode f).
+Sep 26 01:48:29 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 38 with keysym 38 (keycode 11).
+Sep 26 01:48:29 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 39 with keysym 39 (keycode 12).
+Sep 26 01:48:29 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 37 with keysym 37 (keycode 10).
+Sep 26 01:48:31 zhengyuanzhang-VirtualBox /usr/lib/gdm3/gdm-x-session[907]: (EE) No surface to present from.
+Sep 26 01:48:31 zhengyuanzhang-VirtualBox /usr/lib/gdm3/gdm-x-session[907]: message repeated 2 times: [ (EE) No surface to present from.]
+Sep 26 01:48:31 zhengyuanzhang-VirtualBox gsd-color[1324]: unable to get EDID for xrandr-Virtual1: unable to get EDID for output
+Sep 26 01:48:31 zhengyuanzhang-VirtualBox gsd-color[1324]: unable to get EDID for xrandr-Virtual1: unable to get EDID for output
+Sep 26 01:48:31 zhengyuanzhang-VirtualBox /usr/lib/gdm3/gdm-x-session[907]: (EE) No surface to present from.
+Sep 26 01:48:31 zhengyuanzhang-VirtualBox gsd-color[1324]: unable to get EDID for xrandr-Virtual1: unable to get EDID for output
+Sep 26 01:48:31 zhengyuanzhang-VirtualBox gsd-color[1324]: message repeated 17 times: [ unable to get EDID for xrandr-Virtual1: unable to get EDID for output]
+Sep 26 01:48:32 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 31 with keysym 31 (keycode a).
+Sep 26 01:48:32 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 32 with keysym 32 (keycode b).
+Sep 26 01:48:32 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 33 with keysym 33 (keycode c).
+Sep 26 01:48:32 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 38 with keysym 38 (keycode 11).
+Sep 26 01:48:32 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 39 with keysym 39 (keycode 12).
+Sep 26 01:48:32 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 34 with keysym 34 (keycode d).
+Sep 26 01:48:32 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 35 with keysym 35 (keycode e).
+Sep 26 01:48:32 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 36 with keysym 36 (keycode f).
+Sep 26 01:48:32 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 37 with keysym 37 (keycode 10).
+Sep 26 01:55:01 zhengyuanzhang-VirtualBox CRON[33328]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Sep 26 01:56:46 zhengyuanzhang-VirtualBox nautilus[33072]: Called "net usershare info" but it failed: Failed to execute child process “net” (No such file or directory)
+Sep 26 01:58:41 zhengyuanzhang-VirtualBox nautilus[33072]: Called "net usershare info" but it failed: Failed to execute child process “net” (No such file or directory)
+Sep 26 01:59:00 zhengyuanzhang-VirtualBox nautilus[33072]: g_file_has_prefix: assertion 'G_IS_FILE (prefix)' failed
+Sep 26 01:59:00 zhengyuanzhang-VirtualBox nautilus[33072]: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+Sep 26 01:59:00 zhengyuanzhang-VirtualBox nautilus[33072]: g_file_hash: assertion 'G_IS_FILE (file)' failed
+Sep 26 01:59:00 zhengyuanzhang-VirtualBox nautilus[33072]: g_file_get_uri: assertion 'G_IS_FILE (file)' failed
+Sep 26 01:59:00 zhengyuanzhang-VirtualBox nautilus[33072]: g_str_has_prefix: assertion 'str != NULL' failed
+Sep 26 01:59:00 zhengyuanzhang-VirtualBox nautilus[33072]: g_file_get_uri: assertion 'G_IS_FILE (file)' failed
+Sep 26 01:59:00 zhengyuanzhang-VirtualBox nautilus[33072]: g_str_has_prefix: assertion 'str != NULL' failed
+Sep 26 01:59:00 zhengyuanzhang-VirtualBox nautilus[33072]: g_object_new_valist: invalid object type '
+Sep 26 01:59:00 zhengyuanzhang-VirtualBox nautilus[33072]: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+Sep 26 01:59:00 zhengyuanzhang-VirtualBox nautilus[33072]: g_file_hash: assertion 'G_IS_FILE (file)' failed
+Sep 26 01:59:00 zhengyuanzhang-VirtualBox nautilus[33072]: nautilus_file_get: assertion 'G_IS_FILE (location)' failed
+Sep 26 01:59:00 zhengyuanzhang-VirtualBox nautilus[33072]: g_file_hash: assertion 'G_IS_FILE (file)' failed
+Sep 26 01:59:00 zhengyuanzhang-VirtualBox nautilus[33072]: g_file_equal: assertion 'G_IS_FILE (file1)' failed
+Sep 26 01:59:00 zhengyuanzhang-VirtualBox nautilus[33072]: nautilus_file_get: assertion 'G_IS_FILE (location)' failed
+Sep 26 01:59:00 zhengyuanzhang-VirtualBox org.gnome.Nautilus[33072]: **
+Sep 26 01:59:00 zhengyuanzhang-VirtualBox org.gnome.Nautilus[33072]: ERROR:../src/nautilus-window-slot.c:1450:begin_location_change: assertion failed: (priv->determine_view_file != NULL)
+Sep 26 01:59:00 zhengyuanzhang-VirtualBox org.gnome.Nautilus[33072]: Bail out! ERROR:../src/nautilus-window-slot.c:1450:begin_location_change: assertion failed: (priv->determine_view_file != NULL)
+Sep 26 01:59:00 zhengyuanzhang-VirtualBox systemd[889]: Starting Notification regarding a crash report...
+Sep 26 01:59:00 zhengyuanzhang-VirtualBox update-notifier-crash[33355]: /usr/bin/whoopsie
+Sep 26 01:59:00 zhengyuanzhang-VirtualBox systemd[889]: update-notifier-crash.service: Succeeded.
+Sep 26 01:59:00 zhengyuanzhang-VirtualBox systemd[889]: Finished Notification regarding a crash report.
+Sep 26 01:59:02 zhengyuanzhang-VirtualBox systemd[889]: Starting Notification regarding a crash report...
+Sep 26 01:59:02 zhengyuanzhang-VirtualBox update-notifier-crash[33364]: /usr/bin/whoopsie
+Sep 26 01:59:02 zhengyuanzhang-VirtualBox update-notifier-crash[33366]: nautilus
+Sep 26 01:59:06 zhengyuanzhang-VirtualBox systemd[889]: update-notifier-crash.service: Succeeded.
+Sep 26 01:59:06 zhengyuanzhang-VirtualBox systemd[889]: Finished Notification regarding a crash report.
+Sep 26 01:59:09 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Activating service name='org.gnome.Nautilus' requested by ':1.58' (uid=1000 pid=1221 comm="/usr/bin/gnome-shell " label="unconfined")
+Sep 26 01:59:09 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Successfully activated service 'org.gnome.Nautilus'
+Sep 26 01:59:09 zhengyuanzhang-VirtualBox dbus-daemon[479]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.201' (uid=1000 pid=33380 comm="/usr/bin/nautilus --gapplication-service " label="unconfined")
+Sep 26 01:59:09 zhengyuanzhang-VirtualBox systemd[1]: Starting Hostname Service...
+Sep 26 01:59:09 zhengyuanzhang-VirtualBox dbus-daemon[479]: [system] Successfully activated service 'org.freedesktop.hostname1'
+Sep 26 01:59:09 zhengyuanzhang-VirtualBox systemd[1]: Started Hostname Service.
+Sep 26 01:59:09 zhengyuanzhang-VirtualBox nautilus[33380]: Called "net usershare info" but it failed: Failed to execute child process “net” (No such file or directory)
+Sep 26 01:59:39 zhengyuanzhang-VirtualBox systemd[1]: systemd-hostnamed.service: Succeeded.
+Sep 26 01:59:48 zhengyuanzhang-VirtualBox gnome-shell[1221]: pushModal: invocation of begin_modal failed
+Sep 26 01:59:48 zhengyuanzhang-VirtualBox gnome-shell[1221]: polkitAuthenticationAgent: Failed to show modal dialog. Dismissing authentication request for action-id org.gtk.vfs.file-operations-helper cookie 1-02f5755381e15c2007ad0c6d7b95a551-3-d9e1574c3bce5291c57d0b252c9d8e21
+Sep 26 01:59:48 zhengyuanzhang-VirtualBox gvfsd[33443]: Error executing command as another user: Request dismissed
+Sep 26 02:00:08 zhengyuanzhang-VirtualBox gnome-shell[1221]: ../clutter/clutter/clutter-actor.c:10556: The clutter_actor_set_allocation() function can only be called from within the implementation of the ClutterActor::allocate() virtual function.
+Sep 26 02:03:20 zhengyuanzhang-VirtualBox systemd[889]: Started VTE child process 33462 launched by gnome-terminal-server process 32607.
+Sep 26 02:03:23 zhengyuanzhang-VirtualBox systemd[889]: vte-spawn-72e5f153-edf1-4385-8e1e-259ead2589f4.scope: Succeeded.
+Sep 26 02:04:38 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.2' (uid=1000 pid=899 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Sep 26 02:04:39 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Successfully activated service 'org.freedesktop.Tracker1'
+Sep 26 02:04:39 zhengyuanzhang-VirtualBox systemd[889]: Starting Tracker metadata database store and lookup manager...
+Sep 26 02:04:39 zhengyuanzhang-VirtualBox systemd[889]: Started Tracker metadata database store and lookup manager.
+Sep 26 02:05:01 zhengyuanzhang-VirtualBox CRON[33482]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Sep 26 02:05:09 zhengyuanzhang-VirtualBox tracker-store[33473]: OK
+Sep 26 02:05:09 zhengyuanzhang-VirtualBox systemd[889]: tracker-store.service: Succeeded.
+Sep 26 02:08:03 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Activating service name='org.gnome.Nautilus' requested by ':1.58' (uid=1000 pid=1221 comm="/usr/bin/gnome-shell " label="unconfined")
+Sep 26 02:08:03 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Successfully activated service 'org.gnome.Nautilus'
+Sep 26 02:08:04 zhengyuanzhang-VirtualBox dbus-daemon[479]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.205' (uid=1000 pid=33504 comm="/usr/bin/nautilus --gapplication-service " label="unconfined")
+Sep 26 02:08:04 zhengyuanzhang-VirtualBox systemd[1]: Starting Hostname Service...
+Sep 26 02:08:04 zhengyuanzhang-VirtualBox dbus-daemon[479]: [system] Successfully activated service 'org.freedesktop.hostname1'
+Sep 26 02:08:04 zhengyuanzhang-VirtualBox systemd[1]: Started Hostname Service.
+Sep 26 02:08:04 zhengyuanzhang-VirtualBox nautilus[33504]: Called "net usershare info" but it failed: Failed to execute child process “net” (No such file or directory)
+Sep 26 02:08:34 zhengyuanzhang-VirtualBox systemd[1]: systemd-hostnamed.service: Succeeded.
+Sep 26 02:09:17 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Activating service name='org.gnome.Nautilus' requested by ':1.58' (uid=1000 pid=1221 comm="/usr/bin/gnome-shell " label="unconfined")
+Sep 26 02:09:18 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Successfully activated service 'org.gnome.Nautilus'
+Sep 26 02:09:18 zhengyuanzhang-VirtualBox dbus-daemon[479]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.207' (uid=1000 pid=33566 comm="/usr/bin/nautilus --gapplication-service " label="unconfined")
+Sep 26 02:09:18 zhengyuanzhang-VirtualBox systemd[1]: Starting Hostname Service...
+Sep 26 02:09:18 zhengyuanzhang-VirtualBox dbus-daemon[479]: [system] Successfully activated service 'org.freedesktop.hostname1'
+Sep 26 02:09:18 zhengyuanzhang-VirtualBox systemd[1]: Started Hostname Service.
+Sep 26 02:09:18 zhengyuanzhang-VirtualBox nautilus[33566]: Called "net usershare info" but it failed: Failed to execute child process “net” (No such file or directory)
+Sep 26 02:09:27 zhengyuanzhang-VirtualBox systemd[889]: Started VTE child process 33604 launched by gnome-terminal-server process 32607.
+Sep 26 02:09:48 zhengyuanzhang-VirtualBox systemd[1]: systemd-hostnamed.service: Succeeded.
+Sep 26 02:09:48 zhengyuanzhang-VirtualBox systemd[889]: vte-spawn-16ee7982-d26d-4053-a120-adb2d726ca08.scope: Succeeded.
+Sep 26 02:10:40 zhengyuanzhang-VirtualBox systemd[889]: vte-spawn-fefe4fab-0fa1-4646-a2a1-2b693cd49ce0.scope: Succeeded.
+Sep 26 02:10:40 zhengyuanzhang-VirtualBox systemd[889]: gnome-terminal-server.service: Succeeded.
+Sep 26 02:10:41 zhengyuanzhang-VirtualBox systemd[889]: Started Application launched by gnome-shell.
+Sep 26 02:10:41 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Activating via systemd: service name='org.gnome.Terminal' unit='gnome-terminal-server.service' requested by ':1.198' (uid=1000 pid=33648 comm="/usr/bin/gnome-terminal.real --window " label="unconfined")
+Sep 26 02:10:41 zhengyuanzhang-VirtualBox systemd[889]: Starting GNOME Terminal Server...
+Sep 26 02:10:41 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Successfully activated service 'org.gnome.Terminal'
+Sep 26 02:10:41 zhengyuanzhang-VirtualBox systemd[889]: Started GNOME Terminal Server.
+Sep 26 02:10:42 zhengyuanzhang-VirtualBox systemd[889]: Started VTE child process 33662 launched by gnome-terminal-server process 33651.
+Sep 26 02:10:42 zhengyuanzhang-VirtualBox systemd[889]: gnome-launched-org.gnome.Terminal.desktop-33644.scope: Succeeded.
+Sep 26 02:11:35 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.2' (uid=1000 pid=899 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Sep 26 02:11:35 zhengyuanzhang-VirtualBox systemd[889]: Starting Tracker metadata database store and lookup manager...
+Sep 26 02:11:35 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Successfully activated service 'org.freedesktop.Tracker1'
+Sep 26 02:11:35 zhengyuanzhang-VirtualBox systemd[889]: Started Tracker metadata database store and lookup manager.
+Sep 26 02:11:58 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Activating service name='org.gnome.Nautilus' requested by ':1.58' (uid=1000 pid=1221 comm="/usr/bin/gnome-shell " label="unconfined")
+Sep 26 02:11:58 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Successfully activated service 'org.gnome.Nautilus'
+Sep 26 02:11:59 zhengyuanzhang-VirtualBox dbus-daemon[479]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.209' (uid=1000 pid=33678 comm="/usr/bin/nautilus --gapplication-service " label="unconfined")
+Sep 26 02:11:59 zhengyuanzhang-VirtualBox systemd[1]: Starting Hostname Service...
+Sep 26 02:11:59 zhengyuanzhang-VirtualBox dbus-daemon[479]: [system] Successfully activated service 'org.freedesktop.hostname1'
+Sep 26 02:11:59 zhengyuanzhang-VirtualBox systemd[1]: Started Hostname Service.
+Sep 26 02:11:59 zhengyuanzhang-VirtualBox nautilus[33678]: Called "net usershare info" but it failed: Failed to execute child process “net” (No such file or directory)
+Sep 26 02:12:06 zhengyuanzhang-VirtualBox tracker-store[33671]: OK
+Sep 26 02:12:06 zhengyuanzhang-VirtualBox systemd[889]: tracker-store.service: Succeeded.
+Sep 26 02:12:29 zhengyuanzhang-VirtualBox systemd[1]: systemd-hostnamed.service: Succeeded.
+Sep 26 02:12:44 zhengyuanzhang-VirtualBox gsd-color[1324]: unable to get EDID for xrandr-Virtual1: unable to get EDID for output
+Sep 26 02:12:44 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.2' (uid=1000 pid=899 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Sep 26 02:12:44 zhengyuanzhang-VirtualBox systemd[889]: Starting Tracker metadata database store and lookup manager...
+Sep 26 02:12:44 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Successfully activated service 'org.freedesktop.Tracker1'
+Sep 26 02:12:44 zhengyuanzhang-VirtualBox systemd[889]: Started Tracker metadata database store and lookup manager.
+Sep 26 02:12:44 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Activating via systemd: service name='org.freedesktop.Tracker1.Miner.Extract' unit='tracker-extract.service' requested by ':1.2' (uid=1000 pid=899 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Sep 26 02:12:44 zhengyuanzhang-VirtualBox systemd[889]: Starting Tracker metadata extractor...
+Sep 26 02:12:44 zhengyuanzhang-VirtualBox tracker-extract[33756]: Set scheduler policy to SCHED_IDLE
+Sep 26 02:12:44 zhengyuanzhang-VirtualBox tracker-extract[33756]: Setting priority nice level to 19
+Sep 26 02:12:44 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Successfully activated service 'org.freedesktop.Tracker1.Miner.Extract'
+Sep 26 02:12:44 zhengyuanzhang-VirtualBox systemd[889]: Started Tracker metadata extractor.
+Sep 26 02:12:53 zhengyuanzhang-VirtualBox dbus-daemon[479]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.211' (uid=1000 pid=33678 comm="/usr/bin/nautilus --gapplication-service " label="unconfined")
+Sep 26 02:12:53 zhengyuanzhang-VirtualBox systemd[1]: Starting Hostname Service...
+Sep 26 02:12:53 zhengyuanzhang-VirtualBox dbus-daemon[479]: [system] Successfully activated service 'org.freedesktop.hostname1'
+Sep 26 02:12:53 zhengyuanzhang-VirtualBox systemd[1]: Started Hostname Service.
+Sep 26 02:12:54 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Activating service name='org.gnome.gedit' requested by ':1.201' (uid=1000 pid=33678 comm="/usr/bin/nautilus --gapplication-service " label="unconfined")
+Sep 26 02:12:54 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Successfully activated service 'org.gnome.gedit'
+Sep 26 02:12:55 zhengyuanzhang-VirtualBox systemd[889]: tracker-extract.service: Succeeded.
+Sep 26 02:13:15 zhengyuanzhang-VirtualBox tracker-store[33748]: OK
+Sep 26 02:13:15 zhengyuanzhang-VirtualBox systemd[889]: tracker-store.service: Succeeded.
+Sep 26 02:13:23 zhengyuanzhang-VirtualBox systemd[1]: systemd-hostnamed.service: Succeeded.
+Sep 26 02:15:01 zhengyuanzhang-VirtualBox CRON[33842]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Sep 26 02:17:01 zhengyuanzhang-VirtualBox CRON[33850]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Sep 26 02:23:22 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Activating service name='org.gnome.Nautilus' requested by ':1.58' (uid=1000 pid=1221 comm="/usr/bin/gnome-shell " label="unconfined")
+Sep 26 02:23:22 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Successfully activated service 'org.gnome.Nautilus'
+Sep 26 02:23:22 zhengyuanzhang-VirtualBox dbus-daemon[479]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.213' (uid=1000 pid=33864 comm="/usr/bin/nautilus --gapplication-service " label="unconfined")
+Sep 26 02:23:22 zhengyuanzhang-VirtualBox systemd[1]: Starting Hostname Service...
+Sep 26 02:23:22 zhengyuanzhang-VirtualBox dbus-daemon[479]: [system] Successfully activated service 'org.freedesktop.hostname1'
+Sep 26 02:23:22 zhengyuanzhang-VirtualBox systemd[1]: Started Hostname Service.
+Sep 26 02:23:22 zhengyuanzhang-VirtualBox nautilus[33864]: Called "net usershare info" but it failed: Failed to execute child process “net” (No such file or directory)
+Sep 26 02:23:52 zhengyuanzhang-VirtualBox systemd[1]: systemd-hostnamed.service: Succeeded.
+Sep 26 02:25:01 zhengyuanzhang-VirtualBox CRON[33940]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Sep 26 02:25:08 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.2' (uid=1000 pid=899 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Sep 26 02:25:08 zhengyuanzhang-VirtualBox systemd[889]: Starting Tracker metadata database store and lookup manager...
+Sep 26 02:25:08 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Successfully activated service 'org.freedesktop.Tracker1'
+Sep 26 02:25:08 zhengyuanzhang-VirtualBox systemd[889]: Started Tracker metadata database store and lookup manager.
+Sep 26 02:25:38 zhengyuanzhang-VirtualBox tracker-store[33943]: OK
+Sep 26 02:25:38 zhengyuanzhang-VirtualBox systemd[889]: tracker-store.service: Succeeded.
+Sep 26 02:30:28 zhengyuanzhang-VirtualBox systemd[1]: fwupd.service: Succeeded.
+Sep 26 02:35:01 zhengyuanzhang-VirtualBox CRON[34001]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Sep 26 02:40:41 zhengyuanzhang-VirtualBox systemd[889]: Started VTE child process 34014 launched by gnome-terminal-server process 33651.
+Sep 26 02:45:01 zhengyuanzhang-VirtualBox CRON[34027]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Sep 26 02:48:48 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.2' (uid=1000 pid=899 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Sep 26 02:48:48 zhengyuanzhang-VirtualBox systemd[889]: Starting Tracker metadata database store and lookup manager...
+Sep 26 02:48:48 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Successfully activated service 'org.freedesktop.Tracker1'
+Sep 26 02:48:48 zhengyuanzhang-VirtualBox systemd[889]: Started Tracker metadata database store and lookup manager.
+Sep 26 02:49:19 zhengyuanzhang-VirtualBox tracker-store[34042]: OK
+Sep 26 02:49:19 zhengyuanzhang-VirtualBox systemd[889]: tracker-store.service: Succeeded.
+Sep 26 02:50:10 zhengyuanzhang-VirtualBox nautilus[33864]: Called "net usershare info" but it failed: Failed to execute child process “net” (No such file or directory)
+Sep 26 02:50:13 zhengyuanzhang-VirtualBox systemd[889]: Started VTE child process 34076 launched by gnome-terminal-server process 33651.
+Sep 26 02:54:42 zhengyuanzhang-VirtualBox systemd[889]: Started VTE child process 34103 launched by gnome-terminal-server process 33651.
+Sep 26 02:55:01 zhengyuanzhang-VirtualBox CRON[34112]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Sep 26 02:58:03 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.2' (uid=1000 pid=899 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Sep 26 02:58:03 zhengyuanzhang-VirtualBox systemd[889]: Starting Tracker metadata database store and lookup manager...
+Sep 26 02:58:03 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Successfully activated service 'org.freedesktop.Tracker1'
+Sep 26 02:58:03 zhengyuanzhang-VirtualBox systemd[889]: Started Tracker metadata database store and lookup manager.
+Sep 26 02:58:34 zhengyuanzhang-VirtualBox tracker-store[34125]: OK
+Sep 26 02:58:34 zhengyuanzhang-VirtualBox systemd[889]: tracker-store.service: Succeeded.
+Sep 26 03:05:01 zhengyuanzhang-VirtualBox CRON[34150]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Sep 26 03:06:16 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.2' (uid=1000 pid=899 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Sep 26 03:06:16 zhengyuanzhang-VirtualBox systemd[889]: Starting Tracker metadata database store and lookup manager...
+Sep 26 03:06:16 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Successfully activated service 'org.freedesktop.Tracker1'
+Sep 26 03:06:16 zhengyuanzhang-VirtualBox systemd[889]: Started Tracker metadata database store and lookup manager.
+Sep 26 03:06:47 zhengyuanzhang-VirtualBox tracker-store[34155]: OK
+Sep 26 03:06:47 zhengyuanzhang-VirtualBox systemd[889]: tracker-store.service: Succeeded.
+Sep 26 03:07:31 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.2' (uid=1000 pid=899 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Sep 26 03:07:31 zhengyuanzhang-VirtualBox systemd[889]: Starting Tracker metadata database store and lookup manager...
+Sep 26 03:07:31 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Successfully activated service 'org.freedesktop.Tracker1'
+Sep 26 03:07:31 zhengyuanzhang-VirtualBox systemd[889]: Started Tracker metadata database store and lookup manager.
+Sep 26 03:08:02 zhengyuanzhang-VirtualBox tracker-store[34173]: OK
+Sep 26 03:08:02 zhengyuanzhang-VirtualBox systemd[889]: tracker-store.service: Succeeded.
+Sep 26 03:10:01 zhengyuanzhang-VirtualBox CRON[34196]: (root) CMD (test -e /run/systemd/system || SERVICE_MODE=1 /sbin/e2scrub_all -A -r)
+Sep 26 03:15:01 zhengyuanzhang-VirtualBox CRON[34205]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Sep 26 03:16:48 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.2' (uid=1000 pid=899 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Sep 26 03:16:48 zhengyuanzhang-VirtualBox systemd[889]: Starting Tracker metadata database store and lookup manager...
+Sep 26 03:16:48 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Successfully activated service 'org.freedesktop.Tracker1'
+Sep 26 03:16:48 zhengyuanzhang-VirtualBox systemd[889]: Started Tracker metadata database store and lookup manager.
+Sep 26 03:17:01 zhengyuanzhang-VirtualBox CRON[34221]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Sep 26 03:17:19 zhengyuanzhang-VirtualBox tracker-store[34211]: OK
+Sep 26 03:17:19 zhengyuanzhang-VirtualBox systemd[889]: tracker-store.service: Succeeded.
+Sep 26 03:17:41 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Activating service name='org.gnome.gedit' requested by ':1.205' (uid=1000 pid=33864 comm="/usr/bin/nautilus --gapplication-service " label="unconfined")
+Sep 26 03:17:41 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Successfully activated service 'org.gnome.gedit'
+Sep 26 03:18:04 zhengyuanzhang-VirtualBox systemd[889]: Started VTE child process 34260 launched by gnome-terminal-server process 33651.
+Sep 26 03:20:01 zhengyuanzhang-VirtualBox systemd[889]: vte-spawn-32642dd8-63fd-4a12-8832-c2b8f7bd3a21.scope: Succeeded.
+Sep 26 03:20:01 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.2' (uid=1000 pid=899 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Sep 26 03:20:01 zhengyuanzhang-VirtualBox systemd[889]: Starting Tracker metadata database store and lookup manager...
+Sep 26 03:20:01 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Successfully activated service 'org.freedesktop.Tracker1'
+Sep 26 03:20:01 zhengyuanzhang-VirtualBox systemd[889]: Started Tracker metadata database store and lookup manager.
+Sep 26 03:20:31 zhengyuanzhang-VirtualBox tracker-store[34272]: OK
+Sep 26 03:20:31 zhengyuanzhang-VirtualBox systemd[889]: tracker-store.service: Succeeded.
+Sep 26 03:20:35 zhengyuanzhang-VirtualBox systemd[889]: Started VTE child process 34299 launched by gnome-terminal-server process 33651.
+Sep 26 03:21:02 zhengyuanzhang-VirtualBox systemd[889]: vte-spawn-876d2eab-857b-4f82-824b-7cd46da0acaf.scope: Succeeded.
+Sep 26 03:21:02 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.2' (uid=1000 pid=899 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Sep 26 03:21:02 zhengyuanzhang-VirtualBox systemd[889]: Starting Tracker metadata database store and lookup manager...
+Sep 26 03:21:02 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Successfully activated service 'org.freedesktop.Tracker1'
+Sep 26 03:21:02 zhengyuanzhang-VirtualBox systemd[889]: Started Tracker metadata database store and lookup manager.
+Sep 26 03:21:27 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Activating service name='org.gnome.gedit' requested by ':1.205' (uid=1000 pid=33864 comm="/usr/bin/nautilus --gapplication-service " label="unconfined")
+Sep 26 03:21:28 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Successfully activated service 'org.gnome.gedit'
+Sep 26 03:21:33 zhengyuanzhang-VirtualBox tracker-store[34306]: OK
+Sep 26 03:21:33 zhengyuanzhang-VirtualBox systemd[889]: tracker-store.service: Succeeded.
+Sep 26 03:21:33 zhengyuanzhang-VirtualBox systemd[889]: Started VTE child process 34343 launched by gnome-terminal-server process 33651.
+Sep 26 03:23:20 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.2' (uid=1000 pid=899 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Sep 26 03:23:20 zhengyuanzhang-VirtualBox systemd[889]: Starting Tracker metadata database store and lookup manager...
+Sep 26 03:23:20 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Successfully activated service 'org.freedesktop.Tracker1'
+Sep 26 03:23:20 zhengyuanzhang-VirtualBox systemd[889]: Started Tracker metadata database store and lookup manager.
+Sep 26 03:23:50 zhengyuanzhang-VirtualBox tracker-store[34364]: OK
+Sep 26 03:23:50 zhengyuanzhang-VirtualBox systemd[889]: tracker-store.service: Succeeded.
+Sep 26 03:24:18 zhengyuanzhang-VirtualBox systemd[889]: vte-spawn-f075c964-aa80-4195-ae7f-d35fb5071749.scope: Succeeded.
+Sep 26 03:24:18 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.2' (uid=1000 pid=899 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Sep 26 03:24:18 zhengyuanzhang-VirtualBox systemd[889]: Starting Tracker metadata database store and lookup manager...
+Sep 26 03:24:18 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Successfully activated service 'org.freedesktop.Tracker1'
+Sep 26 03:24:18 zhengyuanzhang-VirtualBox systemd[889]: Started Tracker metadata database store and lookup manager.
+Sep 26 03:24:49 zhengyuanzhang-VirtualBox tracker-store[34397]: OK
+Sep 26 03:24:49 zhengyuanzhang-VirtualBox systemd[889]: tracker-store.service: Succeeded.
+Sep 26 03:25:01 zhengyuanzhang-VirtualBox CRON[34415]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Sep 26 03:27:45 zhengyuanzhang-VirtualBox systemd[889]: Started VTE child process 34451 launched by gnome-terminal-server process 33651.
+Sep 26 03:34:27 zhengyuanzhang-VirtualBox systemd[889]: vte-spawn-7ce06823-dc9b-47bb-ab47-8be2c80b489e.scope: Succeeded.
+Sep 26 03:34:27 zhengyuanzhang-VirtualBox systemd[889]: Starting Tracker metadata database store and lookup manager...
+Sep 26 03:34:27 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.2' (uid=1000 pid=899 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Sep 26 03:34:27 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Successfully activated service 'org.freedesktop.Tracker1'
+Sep 26 03:34:27 zhengyuanzhang-VirtualBox systemd[889]: Started Tracker metadata database store and lookup manager.
+Sep 26 03:34:58 zhengyuanzhang-VirtualBox tracker-store[34474]: OK
+Sep 26 03:34:58 zhengyuanzhang-VirtualBox systemd[889]: tracker-store.service: Succeeded.
+Sep 26 03:35:01 zhengyuanzhang-VirtualBox CRON[34492]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Sep 26 03:35:17 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Activating service name='org.gnome.gedit' requested by ':1.205' (uid=1000 pid=33864 comm="/usr/bin/nautilus --gapplication-service " label="unconfined")
+Sep 26 03:35:17 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Successfully activated service 'org.gnome.gedit'
+Sep 26 03:40:50 zhengyuanzhang-VirtualBox systemd[889]: Started VTE child process 34548 launched by gnome-terminal-server process 33651.
+Sep 26 03:45:01 zhengyuanzhang-VirtualBox CRON[34559]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Sep 26 03:46:28 zhengyuanzhang-VirtualBox systemd[1]: Starting Message of the Day...
+Sep 26 03:46:28 zhengyuanzhang-VirtualBox systemd[1]: motd-news.service: Succeeded.
+Sep 26 03:46:28 zhengyuanzhang-VirtualBox systemd[1]: Finished Message of the Day.
+Sep 26 03:53:46 zhengyuanzhang-VirtualBox systemd[889]: vte-spawn-25620307-e39c-4069-8c2f-5e2cba2c7b2a.scope: Succeeded.
+Sep 26 03:53:46 zhengyuanzhang-VirtualBox systemd[889]: Starting Tracker metadata database store and lookup manager...
+Sep 26 03:53:46 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.2' (uid=1000 pid=899 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Sep 26 03:53:46 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Successfully activated service 'org.freedesktop.Tracker1'
+Sep 26 03:53:46 zhengyuanzhang-VirtualBox systemd[889]: Started Tracker metadata database store and lookup manager.
+Sep 26 03:53:51 zhengyuanzhang-VirtualBox sSMTP[34614]: Creating SSL connection to host
+Sep 26 03:54:08 zhengyuanzhang-VirtualBox /usr/lib/gdm3/gdm-x-session[907]: (EE) No surface to present from.
+Sep 26 03:54:08 zhengyuanzhang-VirtualBox /usr/lib/gdm3/gdm-x-session[907]: message repeated 4 times: [ (EE) No surface to present from.]
+Sep 26 03:54:08 zhengyuanzhang-VirtualBox gnome-shell[1221]: Impossible to resize screen at size 1353x876, error id 8: BadMatch (invalid parameter attributes)
+Sep 26 03:54:08 zhengyuanzhang-VirtualBox /usr/lib/gdm3/gdm-x-session[907]: (EE) No surface to present from.
+Sep 26 03:54:09 zhengyuanzhang-VirtualBox /usr/lib/gdm3/gdm-x-session[907]: message repeated 19 times: [ (EE) No surface to present from.]
+Sep 26 03:54:10 zhengyuanzhang-VirtualBox gsd-color[1324]: unable to get EDID for xrandr-Virtual1: unable to get EDID for output
+Sep 26 03:54:10 zhengyuanzhang-VirtualBox gsd-color[1324]: message repeated 49 times: [ unable to get EDID for xrandr-Virtual1: unable to get EDID for output]
+Sep 26 03:54:10 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 31 with keysym 31 (keycode a).
+Sep 26 03:54:10 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 32 with keysym 32 (keycode b).
+Sep 26 03:54:10 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 33 with keysym 33 (keycode c).
+Sep 26 03:54:10 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 34 with keysym 34 (keycode d).
+Sep 26 03:54:10 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 38 with keysym 38 (keycode 11).
+Sep 26 03:54:10 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 39 with keysym 39 (keycode 12).
+Sep 26 03:54:10 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 35 with keysym 35 (keycode e).
+Sep 26 03:54:10 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 36 with keysym 36 (keycode f).
+Sep 26 03:54:10 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 37 with keysym 37 (keycode 10).
+Sep 26 03:54:10 zhengyuanzhang-VirtualBox gsd-color[1324]: unable to get EDID for xrandr-Virtual1: unable to get EDID for output
+Sep 26 03:54:10 zhengyuanzhang-VirtualBox gsd-color[1324]: message repeated 49 times: [ unable to get EDID for xrandr-Virtual1: unable to get EDID for output]
+Sep 26 03:54:17 zhengyuanzhang-VirtualBox tracker-store[34599]: OK
+Sep 26 03:54:17 zhengyuanzhang-VirtualBox systemd[889]: tracker-store.service: Succeeded.
+Sep 26 03:54:36 zhengyuanzhang-VirtualBox sSMTP[34614]: Invalid response SMTP Server (STARTTLS)
+Sep 26 03:54:36 zhengyuanzhang-VirtualBox sSMTP[34614]: Cannot open smtp.gmail.com:587
+Sep 26 03:55:01 zhengyuanzhang-VirtualBox CRON[34627]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Sep 26 03:55:03 zhengyuanzhang-VirtualBox systemd[889]: Started VTE child process 34639 launched by gnome-terminal-server process 33651.
+Sep 26 03:56:03 zhengyuanzhang-VirtualBox systemd[889]: vte-spawn-213399cc-142e-4603-9b17-b7efbb4b2f25.scope: Succeeded.
+Sep 26 03:56:03 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.2' (uid=1000 pid=899 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Sep 26 03:56:03 zhengyuanzhang-VirtualBox systemd[889]: Starting Tracker metadata database store and lookup manager...
+Sep 26 03:56:03 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Successfully activated service 'org.freedesktop.Tracker1'
+Sep 26 03:56:03 zhengyuanzhang-VirtualBox systemd[889]: Started Tracker metadata database store and lookup manager.
+Sep 26 03:56:07 zhengyuanzhang-VirtualBox sSMTP[34663]: Creating SSL connection to host
+Sep 26 03:56:08 zhengyuanzhang-VirtualBox sSMTP[34663]: SSL connection using ECDHE_RSA_AES_256_GCM_SHA384
+Sep 26 03:56:10 zhengyuanzhang-VirtualBox sSMTP[34663]: Authorization failed (535 5.7.8  https://support.google.com/mail/?p=BadCredentials y6sm51619pjl.9 - gsmtp)
+Sep 26 03:56:34 zhengyuanzhang-VirtualBox tracker-store[34648]: OK
+Sep 26 03:56:34 zhengyuanzhang-VirtualBox systemd[889]: tracker-store.service: Succeeded.
+Sep 26 03:56:41 zhengyuanzhang-VirtualBox snapd[2161]: storehelpers.go:438: cannot refresh: snap has no updates available: "core18", "gnome-3-34-1804", "gtk-common-themes", "snap-store", "snapd"
+Sep 26 03:56:41 zhengyuanzhang-VirtualBox snapd[2161]: autorefresh.go:410: auto-refresh: all snaps are up-to-date
+Sep 26 03:58:26 zhengyuanzhang-VirtualBox sSMTP[34680]: Creating SSL connection to host
+Sep 26 03:58:27 zhengyuanzhang-VirtualBox sSMTP[34680]: SSL connection using ECDHE_RSA_AES_256_GCM_SHA384
+Sep 26 03:58:29 zhengyuanzhang-VirtualBox sSMTP[34680]: Authorization failed (535 5.7.8  https://support.google.com/mail/?p=BadCredentials m21sm3290502pfo.13 - gsmtp)
+Sep 26 03:58:35 zhengyuanzhang-VirtualBox /usr/lib/gdm3/gdm-x-session[907]: (EE) No surface to present from.
+Sep 26 03:58:35 zhengyuanzhang-VirtualBox /usr/lib/gdm3/gdm-x-session[907]: (EE) No surface to present from.
+Sep 26 03:58:35 zhengyuanzhang-VirtualBox gnome-shell[1221]: Impossible to resize screen at size 1518x1040, error id 8: BadMatch (invalid parameter attributes)
+Sep 26 03:58:35 zhengyuanzhang-VirtualBox gsd-color[1324]: unable to get EDID for xrandr-Virtual1: unable to get EDID for output
+Sep 26 03:58:35 zhengyuanzhang-VirtualBox gsd-color[1324]: message repeated 7 times: [ unable to get EDID for xrandr-Virtual1: unable to get EDID for output]
+Sep 26 03:58:35 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 31 with keysym 31 (keycode a).
+Sep 26 03:58:35 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 32 with keysym 32 (keycode b).
+Sep 26 03:58:35 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 38 with keysym 38 (keycode 11).
+Sep 26 03:58:35 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 39 with keysym 39 (keycode 12).
+Sep 26 03:58:35 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 33 with keysym 33 (keycode c).
+Sep 26 03:58:35 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 34 with keysym 34 (keycode d).
+Sep 26 03:58:35 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 35 with keysym 35 (keycode e).
+Sep 26 03:58:35 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 36 with keysym 36 (keycode f).
+Sep 26 03:58:35 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 37 with keysym 37 (keycode 10).
+Sep 26 03:58:36 zhengyuanzhang-VirtualBox /usr/lib/gdm3/gdm-x-session[907]: (EE) No surface to present from.
+Sep 26 03:58:37 zhengyuanzhang-VirtualBox /usr/lib/gdm3/gdm-x-session[907]: message repeated 14 times: [ (EE) No surface to present from.]
+Sep 26 03:58:38 zhengyuanzhang-VirtualBox gsd-color[1324]: unable to get EDID for xrandr-Virtual1: unable to get EDID for output
+Sep 26 03:58:38 zhengyuanzhang-VirtualBox gsd-color[1324]: message repeated 20 times: [ unable to get EDID for xrandr-Virtual1: unable to get EDID for output]
+Sep 26 03:58:38 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 31 with keysym 31 (keycode a).
+Sep 26 03:58:38 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 32 with keysym 32 (keycode b).
+Sep 26 03:58:38 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 33 with keysym 33 (keycode c).
+Sep 26 03:58:38 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 34 with keysym 34 (keycode d).
+Sep 26 03:58:38 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 38 with keysym 38 (keycode 11).
+Sep 26 03:58:38 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 39 with keysym 39 (keycode 12).
+Sep 26 03:58:38 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 35 with keysym 35 (keycode e).
+Sep 26 03:58:38 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 36 with keysym 36 (keycode f).
+Sep 26 03:58:38 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 37 with keysym 37 (keycode 10).
+Sep 26 03:58:38 zhengyuanzhang-VirtualBox gsd-color[1324]: unable to get EDID for xrandr-Virtual1: unable to get EDID for output
+Sep 26 03:58:40 zhengyuanzhang-VirtualBox gsd-color[1324]: message repeated 62 times: [ unable to get EDID for xrandr-Virtual1: unable to get EDID for output]
+Sep 26 03:58:40 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 31 with keysym 31 (keycode a).
+Sep 26 03:58:40 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 38 with keysym 38 (keycode 11).
+Sep 26 03:58:40 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 39 with keysym 39 (keycode 12).
+Sep 26 03:58:40 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 32 with keysym 32 (keycode b).
+Sep 26 03:58:40 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 33 with keysym 33 (keycode c).
+Sep 26 03:58:40 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 34 with keysym 34 (keycode d).
+Sep 26 03:58:40 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 35 with keysym 35 (keycode e).
+Sep 26 03:58:40 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 36 with keysym 36 (keycode f).
+Sep 26 03:58:40 zhengyuanzhang-VirtualBox gnome-shell[1221]: Window manager warning: Overwriting existing binding of keysym 37 with keysym 37 (keycode 10).
+Sep 26 03:58:46 zhengyuanzhang-VirtualBox systemd[889]: Started VTE child process 34702 launched by gnome-terminal-server process 33651.
+Sep 26 03:58:48 zhengyuanzhang-VirtualBox systemd[889]: vte-spawn-aa5a25c3-2d14-4075-9413-fe05486e81ed.scope: Succeeded.
+Sep 26 03:58:48 zhengyuanzhang-VirtualBox systemd[889]: Starting Tracker metadata database store and lookup manager...
+Sep 26 03:58:48 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.2' (uid=1000 pid=899 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Sep 26 03:58:48 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Successfully activated service 'org.freedesktop.Tracker1'
+Sep 26 03:58:48 zhengyuanzhang-VirtualBox systemd[889]: Started Tracker metadata database store and lookup manager.
+Sep 26 03:58:53 zhengyuanzhang-VirtualBox systemd[889]: Started VTE child process 34721 launched by gnome-terminal-server process 33651.
+Sep 26 03:59:19 zhengyuanzhang-VirtualBox tracker-store[34708]: OK
+Sep 26 03:59:19 zhengyuanzhang-VirtualBox systemd[889]: tracker-store.service: Succeeded.
+Sep 26 04:01:51 zhengyuanzhang-VirtualBox systemd[889]: vte-spawn-0d1f5c33-e905-4a31-8821-e4db19260c87.scope: Succeeded.
+Sep 26 04:01:51 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.2' (uid=1000 pid=899 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Sep 26 04:01:51 zhengyuanzhang-VirtualBox systemd[889]: Starting Tracker metadata database store and lookup manager...
+Sep 26 04:01:51 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Successfully activated service 'org.freedesktop.Tracker1'
+Sep 26 04:01:51 zhengyuanzhang-VirtualBox systemd[889]: Started Tracker metadata database store and lookup manager.
+Sep 26 04:02:14 zhengyuanzhang-VirtualBox sSMTP[34747]: Creating SSL connection to host
+Sep 26 04:02:15 zhengyuanzhang-VirtualBox sSMTP[34747]: SSL connection using ECDHE_RSA_AES_256_GCM_SHA384
+Sep 26 04:02:17 zhengyuanzhang-VirtualBox sSMTP[34747]: Authorization failed (535 5.7.8  https://support.google.com/mail/?p=BadCredentials 11sm2926582pgp.21 - gsmtp)
+Sep 26 04:02:47 zhengyuanzhang-VirtualBox tracker-store[34730]: OK
+Sep 26 04:02:47 zhengyuanzhang-VirtualBox systemd[889]: tracker-store.service: Succeeded.
+Sep 26 04:03:05 zhengyuanzhang-VirtualBox systemd[889]: Started VTE child process 34768 launched by gnome-terminal-server process 33651.
+Sep 26 04:05:01 zhengyuanzhang-VirtualBox CRON[34779]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Sep 26 04:07:00 zhengyuanzhang-VirtualBox systemd[889]: vte-spawn-1874a9eb-bfec-433d-a6c3-d9be91d20d0a.scope: Succeeded.
+Sep 26 04:07:00 zhengyuanzhang-VirtualBox systemd[889]: Starting Tracker metadata database store and lookup manager...
+Sep 26 04:07:00 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.2' (uid=1000 pid=899 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Sep 26 04:07:00 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Successfully activated service 'org.freedesktop.Tracker1'
+Sep 26 04:07:00 zhengyuanzhang-VirtualBox systemd[889]: Started Tracker metadata database store and lookup manager.
+Sep 26 04:07:31 zhengyuanzhang-VirtualBox tracker-store[34788]: OK
+Sep 26 04:07:31 zhengyuanzhang-VirtualBox systemd[889]: tracker-store.service: Succeeded.
+Sep 26 04:07:42 zhengyuanzhang-VirtualBox NetworkManager[480]: <info>  [1601064462.0862] manager: NetworkManager state is now CONNECTED_SITE
+Sep 26 04:07:42 zhengyuanzhang-VirtualBox dbus-daemon[479]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.7' (uid=0 pid=480 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Sep 26 04:07:42 zhengyuanzhang-VirtualBox systemd[1]: Starting Network Manager Script Dispatcher Service...
+Sep 26 04:07:42 zhengyuanzhang-VirtualBox whoopsie[639]: [04:07:42] offline
+Sep 26 04:07:42 zhengyuanzhang-VirtualBox dbus-daemon[479]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Sep 26 04:07:42 zhengyuanzhang-VirtualBox systemd[1]: Started Network Manager Script Dispatcher Service.
+Sep 26 04:07:43 zhengyuanzhang-VirtualBox NetworkManager[480]: <info>  [1601064463.0702] manager: NetworkManager state is now CONNECTED_GLOBAL
+Sep 26 04:07:43 zhengyuanzhang-VirtualBox whoopsie[639]: [04:07:43] The default IPv4 route is: /org/freedesktop/NetworkManager/ActiveConnection/1
+Sep 26 04:07:43 zhengyuanzhang-VirtualBox whoopsie[639]: [04:07:43] Not a paid data plan: /org/freedesktop/NetworkManager/ActiveConnection/1
+Sep 26 04:07:43 zhengyuanzhang-VirtualBox whoopsie[639]: [04:07:43] Found usable connection: /org/freedesktop/NetworkManager/ActiveConnection/1
+Sep 26 04:07:44 zhengyuanzhang-VirtualBox whoopsie[639]: [04:07:44] online
+Sep 26 04:07:53 zhengyuanzhang-VirtualBox systemd[1]: NetworkManager-dispatcher.service: Succeeded.
+Sep 26 04:08:02 zhengyuanzhang-VirtualBox systemd-resolved[437]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Sep 26 04:08:06 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.2' (uid=1000 pid=899 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Sep 26 04:08:06 zhengyuanzhang-VirtualBox systemd[889]: Starting Tracker metadata database store and lookup manager...
+Sep 26 04:08:06 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Successfully activated service 'org.freedesktop.Tracker1'
+Sep 26 04:08:06 zhengyuanzhang-VirtualBox systemd[889]: Started Tracker metadata database store and lookup manager.
+Sep 26 04:08:07 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Activating via systemd: service name='org.freedesktop.Tracker1.Miner.Extract' unit='tracker-extract.service' requested by ':1.2' (uid=1000 pid=899 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Sep 26 04:08:07 zhengyuanzhang-VirtualBox systemd[889]: Starting Tracker metadata extractor...
+Sep 26 04:08:07 zhengyuanzhang-VirtualBox tracker-extract[34922]: Set scheduler policy to SCHED_IDLE
+Sep 26 04:08:07 zhengyuanzhang-VirtualBox tracker-extract[34922]: Setting priority nice level to 19
+Sep 26 04:08:07 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Successfully activated service 'org.freedesktop.Tracker1.Miner.Extract'
+Sep 26 04:08:07 zhengyuanzhang-VirtualBox systemd[889]: Started Tracker metadata extractor.
+Sep 26 04:08:08 zhengyuanzhang-VirtualBox dbus-daemon[479]: [system] Activating via systemd: service name='org.freedesktop.PackageKit' unit='packagekit.service' requested by ':1.217' (uid=0 pid=35584 comm="/usr/bin/gdbus call --system --dest org.freedeskto" label="unconfined")
+Sep 26 04:08:08 zhengyuanzhang-VirtualBox systemd[1]: Starting PackageKit Daemon...
+Sep 26 04:08:08 zhengyuanzhang-VirtualBox PackageKit: daemon start
+Sep 26 04:08:08 zhengyuanzhang-VirtualBox dbus-daemon[479]: [system] Successfully activated service 'org.freedesktop.PackageKit'
+Sep 26 04:08:08 zhengyuanzhang-VirtualBox systemd[1]: Started PackageKit Daemon.
+Sep 26 04:08:17 zhengyuanzhang-VirtualBox systemd[889]: tracker-extract.service: Succeeded.
+Sep 26 04:08:39 zhengyuanzhang-VirtualBox tracker-store[34910]: OK
+Sep 26 04:08:39 zhengyuanzhang-VirtualBox systemd[889]: tracker-store.service: Succeeded.
+Sep 26 04:09:35 zhengyuanzhang-VirtualBox sSMTP[35826]: Creating SSL connection to host
+Sep 26 04:09:36 zhengyuanzhang-VirtualBox sSMTP[35826]: SSL connection using ECDHE_RSA_AES_256_GCM_SHA384
+Sep 26 04:09:37 zhengyuanzhang-VirtualBox sSMTP[35826]: Authorization failed (535 5.7.8  https://support.google.com/mail/?p=BadCredentials 31sm2870424pgs.59 - gsmtp)
+Sep 26 04:09:37 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.2' (uid=1000 pid=899 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Sep 26 04:09:37 zhengyuanzhang-VirtualBox systemd[889]: Starting Tracker metadata database store and lookup manager...
+Sep 26 04:09:37 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Successfully activated service 'org.freedesktop.Tracker1'
+Sep 26 04:09:37 zhengyuanzhang-VirtualBox systemd[889]: Started Tracker metadata database store and lookup manager.
+Sep 26 04:10:01 zhengyuanzhang-VirtualBox sSMTP[35852]: Creating SSL connection to host
+Sep 26 04:10:02 zhengyuanzhang-VirtualBox sSMTP[35852]: SSL connection using ECDHE_RSA_AES_256_GCM_SHA384
+Sep 26 04:10:03 zhengyuanzhang-VirtualBox sSMTP[35852]: Authorization failed (535 5.7.8  https://support.google.com/mail/?p=BadCredentials 9sm3040427pgx.76 - gsmtp)
+Sep 26 04:10:23 zhengyuanzhang-VirtualBox sSMTP[35876]: Creating SSL connection to host
+Sep 26 04:10:24 zhengyuanzhang-VirtualBox sSMTP[35876]: SSL connection using ECDHE_RSA_AES_256_GCM_SHA384
+Sep 26 04:10:26 zhengyuanzhang-VirtualBox sSMTP[35876]: Authorization failed (535 5.7.8  https://support.google.com/mail/?p=BadCredentials i20sm3020878pgk.77 - gsmtp)
+Sep 26 04:10:56 zhengyuanzhang-VirtualBox tracker-store[35828]: OK
+Sep 26 04:10:56 zhengyuanzhang-VirtualBox systemd[889]: tracker-store.service: Succeeded.
+Sep 26 04:11:35 zhengyuanzhang-VirtualBox systemd[889]: vte-spawn-74e04fa2-4e6f-44e2-a503-5c0b46b2aa1a.scope: Succeeded.
+Sep 26 04:11:35 zhengyuanzhang-VirtualBox systemd[889]: vte-spawn-15f819a2-0d08-46d2-8c26-302242d73501.scope: Succeeded.
+Sep 26 04:11:38 zhengyuanzhang-VirtualBox systemd[889]: Started VTE child process 35897 launched by gnome-terminal-server process 33651.
+Sep 26 04:12:02 zhengyuanzhang-VirtualBox gnome-shell[1221]: ../clutter/clutter/clutter-actor.c:10556: The clutter_actor_set_allocation() function can only be called from within the implementation of the ClutterActor::allocate() virtual function.
+Sep 26 04:12:06 zhengyuanzhang-VirtualBox gnome-shell[1221]: message repeated 3 times: [ ../clutter/clutter/clutter-actor.c:10556: The clutter_actor_set_allocation() function can only be called from within the implementation of the ClutterActor::allocate() virtual function.]
+Sep 26 04:13:14 zhengyuanzhang-VirtualBox PackageKit: daemon quit
+Sep 26 04:13:14 zhengyuanzhang-VirtualBox systemd[1]: packagekit.service: Succeeded.
+Sep 26 04:15:01 zhengyuanzhang-VirtualBox CRON[35927]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Sep 26 04:17:00 zhengyuanzhang-VirtualBox systemd[889]: Started VTE child process 35960 launched by gnome-terminal-server process 33651.
+Sep 26 04:17:01 zhengyuanzhang-VirtualBox CRON[35965]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Sep 26 04:17:14 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.2' (uid=1000 pid=899 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Sep 26 04:17:14 zhengyuanzhang-VirtualBox systemd[889]: Starting Tracker metadata database store and lookup manager...
+Sep 26 04:17:14 zhengyuanzhang-VirtualBox systemd[889]: vte-spawn-e6c3e9b8-44c3-4797-bdb9-55968ca2699e.scope: Succeeded.
+Sep 26 04:17:14 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Successfully activated service 'org.freedesktop.Tracker1'
+Sep 26 04:17:14 zhengyuanzhang-VirtualBox systemd[889]: Started Tracker metadata database store and lookup manager.
+Sep 26 04:17:15 zhengyuanzhang-VirtualBox systemd[889]: Started VTE child process 35980 launched by gnome-terminal-server process 33651.
+Sep 26 04:17:44 zhengyuanzhang-VirtualBox tracker-store[35967]: OK
+Sep 26 04:17:44 zhengyuanzhang-VirtualBox systemd[889]: tracker-store.service: Succeeded.
+Sep 26 04:18:00 zhengyuanzhang-VirtualBox systemd[889]: vte-spawn-e6088df0-25ea-4f08-9808-8b947f47cd8a.scope: Succeeded.
+Sep 26 04:18:00 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.2' (uid=1000 pid=899 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Sep 26 04:18:00 zhengyuanzhang-VirtualBox systemd[889]: Starting Tracker metadata database store and lookup manager...
+Sep 26 04:18:00 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Successfully activated service 'org.freedesktop.Tracker1'
+Sep 26 04:18:00 zhengyuanzhang-VirtualBox systemd[889]: Started Tracker metadata database store and lookup manager.
+Sep 26 04:18:04 zhengyuanzhang-VirtualBox systemd[889]: vte-spawn-fa666b18-b6d1-4bed-9be4-0d86e9cd08b7.scope: Succeeded.
+Sep 26 04:18:04 zhengyuanzhang-VirtualBox systemd[889]: vte-spawn-58793662-566e-412d-8a10-b400ffd9c854.scope: Succeeded.
+Sep 26 04:18:06 zhengyuanzhang-VirtualBox systemd[889]: Started VTE child process 35998 launched by gnome-terminal-server process 33651.
+Sep 26 04:18:30 zhengyuanzhang-VirtualBox tracker-store[35990]: OK
+Sep 26 04:18:30 zhengyuanzhang-VirtualBox systemd[889]: tracker-store.service: Succeeded.
+Sep 26 04:18:55 zhengyuanzhang-VirtualBox sSMTP[36035]: Creating SSL connection to host
+Sep 26 04:18:57 zhengyuanzhang-VirtualBox sSMTP[36035]: SSL connection using ECDHE_RSA_AES_256_GCM_SHA384
+Sep 26 04:18:58 zhengyuanzhang-VirtualBox sSMTP[36035]: Authorization failed (535 5.7.8  https://support.google.com/mail/?p=BadCredentials i1sm3471017pfk.21 - gsmtp)
+Sep 26 04:21:00 zhengyuanzhang-VirtualBox nautilus[33864]: Called "net usershare info" but it failed: Failed to execute child process “net” (No such file or directory)
+Sep 26 04:21:24 zhengyuanzhang-VirtualBox systemd[889]: Started VTE child process 36057 launched by gnome-terminal-server process 33651.
+Sep 26 04:21:40 zhengyuanzhang-VirtualBox systemd[889]: vte-spawn-ef4aeedc-9aa2-4e4b-88e5-eaecab86f4eb.scope: Succeeded.
+Sep 26 04:21:42 zhengyuanzhang-VirtualBox systemd[889]: Started VTE child process 36067 launched by gnome-terminal-server process 33651.
+Sep 26 04:22:50 zhengyuanzhang-VirtualBox kernel: [28620.225732] capability: warning: `gvfsd-admin' uses 32-bit capabilities (legacy support in use)
+Sep 26 04:22:56 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Activating service name='org.gnome.gedit' requested by ':1.205' (uid=1000 pid=33864 comm="/usr/bin/nautilus --gapplication-service " label="unconfined")
+Sep 26 04:22:56 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Successfully activated service 'org.gnome.gedit'
+Sep 26 04:22:57 zhengyuanzhang-VirtualBox gedit[36105]: Loading metadata failed: 指定的位置未挂载
+Sep 26 04:23:43 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.2' (uid=1000 pid=899 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Sep 26 04:23:43 zhengyuanzhang-VirtualBox systemd[889]: Starting Tracker metadata database store and lookup manager...
+Sep 26 04:23:43 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Successfully activated service 'org.freedesktop.Tracker1'
+Sep 26 04:23:43 zhengyuanzhang-VirtualBox systemd[889]: Started Tracker metadata database store and lookup manager.
+Sep 26 04:24:14 zhengyuanzhang-VirtualBox tracker-store[36125]: OK
+Sep 26 04:24:14 zhengyuanzhang-VirtualBox systemd[889]: tracker-store.service: Succeeded.
+Sep 26 04:24:36 zhengyuanzhang-VirtualBox systemd[889]: vte-spawn-7ad26dec-cd92-4685-9044-d034b93e180f.scope: Succeeded.
+Sep 26 04:24:43 zhengyuanzhang-VirtualBox sSMTP[36160]: Creating SSL connection to host
+Sep 26 04:24:44 zhengyuanzhang-VirtualBox sSMTP[36160]: SSL connection using ECDHE_RSA_AES_256_GCM_SHA384
+Sep 26 04:24:45 zhengyuanzhang-VirtualBox sSMTP[36160]: Authorization failed (535 5.7.8  https://support.google.com/mail/?p=BadCredentials e10sm3180854pgb.45 - gsmtp)
+Sep 26 04:25:01 zhengyuanzhang-VirtualBox CRON[36162]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Sep 26 04:25:58 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.2' (uid=1000 pid=899 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Sep 26 04:25:58 zhengyuanzhang-VirtualBox systemd[889]: Starting Tracker metadata database store and lookup manager...
+Sep 26 04:25:58 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Successfully activated service 'org.freedesktop.Tracker1'
+Sep 26 04:25:58 zhengyuanzhang-VirtualBox systemd[889]: Started Tracker metadata database store and lookup manager.
+Sep 26 04:26:01 zhengyuanzhang-VirtualBox sSMTP[36195]: Creating SSL connection to host
+Sep 26 04:26:02 zhengyuanzhang-VirtualBox sSMTP[36195]: SSL connection using ECDHE_RSA_AES_256_GCM_SHA384
+Sep 26 04:26:03 zhengyuanzhang-VirtualBox sSMTP[36195]: Authorization failed (535 5.7.8  https://support.google.com/mail/?p=BadCredentials f19sm3592618pfd.45 - gsmtp)
+Sep 26 04:26:28 zhengyuanzhang-VirtualBox tracker-store[36166]: OK
+Sep 26 04:26:28 zhengyuanzhang-VirtualBox systemd[889]: tracker-store.service: Succeeded.
+Sep 26 04:26:41 zhengyuanzhang-VirtualBox nautilus[33864]: Called "net usershare info" but it failed: Failed to execute child process “net” (No such file or directory)
+Sep 26 04:27:00 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Activating service name='org.gnome.gedit' requested by ':1.205' (uid=1000 pid=33864 comm="/usr/bin/nautilus --gapplication-service " label="unconfined")
+Sep 26 04:27:00 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Successfully activated service 'org.gnome.gedit'
+Sep 26 04:27:00 zhengyuanzhang-VirtualBox gedit[36210]: Loading metadata failed: 指定的位置未挂载
+Sep 26 04:27:14 zhengyuanzhang-VirtualBox snap-store[1490]: GError set over the top of a previous GError or uninitialized memory.#012This indicates a bug in someone's code. You must ensure an error is NULL before it's set.#012The overwriting error message was: Error opening directory “/usr/share/metainfo”: No such file or directory
+Sep 26 04:27:14 zhengyuanzhang-VirtualBox snap-store[1490]: xb_builder_ensure: assertion 'error == NULL || *error == NULL' failed
+Sep 26 04:27:14 zhengyuanzhang-VirtualBox snap-store[1490]: not GsPlugin error g-file-error-quark:4: Error opening directory “/usr/share/appdata”: No such file or directory
+Sep 26 04:27:14 zhengyuanzhang-VirtualBox snap-store[1490]: GError set over the top of a previous GError or uninitialized memory.#012This indicates a bug in someone's code. You must ensure an error is NULL before it's set.#012The overwriting error message was: Error opening directory “/usr/share/metainfo”: No such file or directory
+Sep 26 04:27:14 zhengyuanzhang-VirtualBox snap-store[1490]: xb_builder_ensure: assertion 'error == NULL || *error == NULL' failed
+Sep 26 04:27:14 zhengyuanzhang-VirtualBox snap-store[1490]: not GsPlugin error g-file-error-quark:4: Error opening directory “/usr/share/appdata”: No such file or directory
+Sep 26 04:27:14 zhengyuanzhang-VirtualBox dbus-daemon[909]: apparmor="DENIED" operation="dbus_method_call"  bus="session" path="/org/gtk/Notifications" interface="org.gtk.Notifications" member="RemoveNotification" mask="send" name="org.gtk.Notifications" pid=1490 label="snap.snap-store.ubuntu-software" peer_pid=1221 peer_label="unconfined"
+Sep 26 04:27:14 zhengyuanzhang-VirtualBox dbus-daemon[909]: apparmor="DENIED" operation="dbus_method_call"  bus="session" path="/org/gtk/Notifications" interface="org.gtk.Notifications" member="RemoveNotification" mask="send" name="org.gtk.Notifications" pid=1490 label="snap.snap-store.ubuntu-software" peer_pid=1221 peer_label="unconfined"
+Sep 26 04:27:14 zhengyuanzhang-VirtualBox snap-store[1490]: GError set over the top of a previous GError or uninitialized memory.#012This indicates a bug in someone's code. You must ensure an error is NULL before it's set.#012The overwriting error message was: Error opening directory “/usr/share/metainfo”: No such file or directory
+Sep 26 04:27:14 zhengyuanzhang-VirtualBox kernel: [28883.798341] audit: type=1400 audit(1601065634.028:1677): apparmor="DENIED" operation="open" profile="snap.snap-store.ubuntu-software" name="/var/lib/snapd/hostfs/usr/share/mime/mime.cache" pid=1490 comm="snap-store" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Sep 26 04:27:14 zhengyuanzhang-VirtualBox kernel: [28883.798343] audit: type=1400 audit(1601065634.028:1678): apparmor="DENIED" operation="open" profile="snap.snap-store.ubuntu-software" name="/var/lib/snapd/hostfs/usr/share/mime/globs2" pid=1490 comm="snap-store" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Sep 26 04:27:14 zhengyuanzhang-VirtualBox kernel: [28883.798344] audit: type=1400 audit(1601065634.028:1679): apparmor="DENIED" operation="open" profile="snap.snap-store.ubuntu-software" name="/var/lib/snapd/hostfs/usr/share/mime/magic" pid=1490 comm="snap-store" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Sep 26 04:27:14 zhengyuanzhang-VirtualBox kernel: [28883.798345] audit: type=1400 audit(1601065634.028:1680): apparmor="DENIED" operation="open" profile="snap.snap-store.ubuntu-software" name="/var/lib/snapd/hostfs/usr/share/mime/aliases" pid=1490 comm="snap-store" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Sep 26 04:27:14 zhengyuanzhang-VirtualBox kernel: [28883.798346] audit: type=1400 audit(1601065634.028:1681): apparmor="DENIED" operation="open" profile="snap.snap-store.ubuntu-software" name="/var/lib/snapd/hostfs/usr/share/mime/subclasses" pid=1490 comm="snap-store" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Sep 26 04:27:14 zhengyuanzhang-VirtualBox kernel: [28883.798347] audit: type=1400 audit(1601065634.028:1682): apparmor="DENIED" operation="open" profile="snap.snap-store.ubuntu-software" name="/var/lib/snapd/hostfs/usr/share/mime/icons" pid=1490 comm="snap-store" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Sep 26 04:27:14 zhengyuanzhang-VirtualBox kernel: [28883.798348] audit: type=1400 audit(1601065634.028:1683): apparmor="DENIED" operation="open" profile="snap.snap-store.ubuntu-software" name="/var/lib/snapd/hostfs/usr/share/mime/generic-icons" pid=1490 comm="snap-store" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Sep 26 04:27:14 zhengyuanzhang-VirtualBox snap-store[1490]: xb_builder_ensure: assertion 'error == NULL || *error == NULL' failed
+Sep 26 04:27:14 zhengyuanzhang-VirtualBox snap-store[1490]: not GsPlugin error g-file-error-quark:4: Error opening directory “/usr/share/appdata”: No such file or directory
+Sep 26 04:27:14 zhengyuanzhang-VirtualBox snap-store[1490]: GError set over the top of a previous GError or uninitialized memory.#012This indicates a bug in someone's code. You must ensure an error is NULL before it's set.#012The overwriting error message was: Error opening directory “/usr/share/metainfo”: No such file or directory
+Sep 26 04:27:14 zhengyuanzhang-VirtualBox snap-store[1490]: xb_builder_ensure: assertion 'error == NULL || *error == NULL' failed
+Sep 26 04:27:14 zhengyuanzhang-VirtualBox snap-store[1490]: not GsPlugin error g-file-error-quark:4: Error opening directory “/usr/share/appdata”: No such file or directory
+Sep 26 04:27:14 zhengyuanzhang-VirtualBox snap-store[1490]: not handling error failed for action refine: Error opening directory “/usr/share/appdata”: No such file or directory
+Sep 26 04:27:35 zhengyuanzhang-VirtualBox systemd[889]: Started Application launched by gnome-shell.
+Sep 26 04:27:35 zhengyuanzhang-VirtualBox kernel: [28905.353969] audit: type=1400 audit(1601065655.580:1684): apparmor="DENIED" operation="open" profile="snap.snap-store.ubuntu-software" name="/var/lib/snapd/hostfs/usr/share/mime/mime.cache" pid=36229 comm="snap-store" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Sep 26 04:27:35 zhengyuanzhang-VirtualBox kernel: [28905.354200] audit: type=1400 audit(1601065655.584:1685): apparmor="DENIED" operation="open" profile="snap.snap-store.ubuntu-software" name="/var/lib/snapd/hostfs/usr/share/mime/globs2" pid=36229 comm="snap-store" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Sep 26 04:27:35 zhengyuanzhang-VirtualBox kernel: [28905.354243] audit: type=1400 audit(1601065655.584:1686): apparmor="DENIED" operation="open" profile="snap.snap-store.ubuntu-software" name="/var/lib/snapd/hostfs/usr/share/mime/magic" pid=36229 comm="snap-store" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Sep 26 04:27:35 zhengyuanzhang-VirtualBox kernel: [28905.354274] audit: type=1400 audit(1601065655.584:1687): apparmor="DENIED" operation="open" profile="snap.snap-store.ubuntu-software" name="/var/lib/snapd/hostfs/usr/share/mime/aliases" pid=36229 comm="snap-store" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Sep 26 04:27:35 zhengyuanzhang-VirtualBox kernel: [28905.354307] audit: type=1400 audit(1601065655.584:1688): apparmor="DENIED" operation="open" profile="snap.snap-store.ubuntu-software" name="/var/lib/snapd/hostfs/usr/share/mime/subclasses" pid=36229 comm="snap-store" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Sep 26 04:27:35 zhengyuanzhang-VirtualBox kernel: [28905.354337] audit: type=1400 audit(1601065655.584:1689): apparmor="DENIED" operation="open" profile="snap.snap-store.ubuntu-software" name="/var/lib/snapd/hostfs/usr/share/mime/icons" pid=36229 comm="snap-store" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Sep 26 04:27:35 zhengyuanzhang-VirtualBox kernel: [28905.354367] audit: type=1400 audit(1601065655.584:1690): apparmor="DENIED" operation="open" profile="snap.snap-store.ubuntu-software" name="/var/lib/snapd/hostfs/usr/share/mime/generic-icons" pid=36229 comm="snap-store" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Sep 26 04:27:35 zhengyuanzhang-VirtualBox kernel: [28905.354591] audit: type=1400 audit(1601065655.584:1691): apparmor="DENIED" operation="open" profile="snap.snap-store.ubuntu-software" name="/etc/gnome/defaults.list" pid=36229 comm="snap-store" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Sep 26 04:27:35 zhengyuanzhang-VirtualBox kernel: [28905.367323] audit: type=1400 audit(1601065655.596:1692): apparmor="DENIED" operation="open" profile="snap.snap-store.ubuntu-software" name="/var/lib/snapd/hostfs/usr/share/mime/mime.cache" pid=1490 comm="snap-store" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Sep 26 04:27:35 zhengyuanzhang-VirtualBox kernel: [28905.367393] audit: type=1400 audit(1601065655.596:1693): apparmor="DENIED" operation="open" profile="snap.snap-store.ubuntu-software" name="/var/lib/snapd/hostfs/usr/share/mime/globs2" pid=1490 comm="snap-store" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Sep 26 04:27:35 zhengyuanzhang-VirtualBox systemd[889]: gnome-launched-snap-store_ubuntu-software.desktop-36229.scope: Succeeded.
+Sep 26 04:27:41 zhengyuanzhang-VirtualBox kernel: [28911.692530] kauditd_printk_skb: 1137 callbacks suppressed
+Sep 26 04:27:41 zhengyuanzhang-VirtualBox kernel: [28911.692531] audit: type=1400 audit(1601065661.924:2831): apparmor="DENIED" operation="open" profile="snap.snap-store.ubuntu-software" name="/var/lib/snapd/hostfs/usr/share/mime/mime.cache" pid=1490 comm="snap-store" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Sep 26 04:27:41 zhengyuanzhang-VirtualBox kernel: [28911.692647] audit: type=1400 audit(1601065661.924:2832): apparmor="DENIED" operation="open" profile="snap.snap-store.ubuntu-software" name="/var/lib/snapd/hostfs/usr/share/mime/globs2" pid=1490 comm="snap-store" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Sep 26 04:27:41 zhengyuanzhang-VirtualBox kernel: [28911.692682] audit: type=1400 audit(1601065661.924:2833): apparmor="DENIED" operation="open" profile="snap.snap-store.ubuntu-software" name="/var/lib/snapd/hostfs/usr/share/mime/magic" pid=1490 comm="snap-store" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Sep 26 04:27:41 zhengyuanzhang-VirtualBox kernel: [28911.692712] audit: type=1400 audit(1601065661.924:2834): apparmor="DENIED" operation="open" profile="snap.snap-store.ubuntu-software" name="/var/lib/snapd/hostfs/usr/share/mime/aliases" pid=1490 comm="snap-store" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Sep 26 04:27:41 zhengyuanzhang-VirtualBox kernel: [28911.692739] audit: type=1400 audit(1601065661.924:2835): apparmor="DENIED" operation="open" profile="snap.snap-store.ubuntu-software" name="/var/lib/snapd/hostfs/usr/share/mime/subclasses" pid=1490 comm="snap-store" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Sep 26 04:27:41 zhengyuanzhang-VirtualBox kernel: [28911.692765] audit: type=1400 audit(1601065661.924:2836): apparmor="DENIED" operation="open" profile="snap.snap-store.ubuntu-software" name="/var/lib/snapd/hostfs/usr/share/mime/icons" pid=1490 comm="snap-store" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Sep 26 04:27:41 zhengyuanzhang-VirtualBox kernel: [28911.692793] audit: type=1400 audit(1601065661.924:2837): apparmor="DENIED" operation="open" profile="snap.snap-store.ubuntu-software" name="/var/lib/snapd/hostfs/usr/share/mime/generic-icons" pid=1490 comm="snap-store" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Sep 26 04:31:04 zhengyuanzhang-VirtualBox kernel: [29113.952717] audit: type=1400 audit(1601065864.180:2838): apparmor="DENIED" operation="open" profile="snap.snap-store.ubuntu-software" name="/var/lib/snapd/hostfs/usr/share/mime/mime.cache" pid=1490 comm="snap-store" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Sep 26 04:31:04 zhengyuanzhang-VirtualBox kernel: [29113.958207] audit: type=1400 audit(1601065864.188:2839): apparmor="DENIED" operation="open" profile="snap.snap-store.ubuntu-software" name="/var/lib/snapd/hostfs/usr/share/mime/globs2" pid=1490 comm="snap-store" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Sep 26 04:31:04 zhengyuanzhang-VirtualBox kernel: [29113.958262] audit: type=1400 audit(1601065864.188:2840): apparmor="DENIED" operation="open" profile="snap.snap-store.ubuntu-software" name="/var/lib/snapd/hostfs/usr/share/mime/magic" pid=1490 comm="snap-store" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Sep 26 04:31:04 zhengyuanzhang-VirtualBox kernel: [29113.958294] audit: type=1400 audit(1601065864.188:2841): apparmor="DENIED" operation="open" profile="snap.snap-store.ubuntu-software" name="/var/lib/snapd/hostfs/usr/share/mime/aliases" pid=1490 comm="snap-store" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Sep 26 04:31:04 zhengyuanzhang-VirtualBox kernel: [29113.958325] audit: type=1400 audit(1601065864.188:2842): apparmor="DENIED" operation="open" profile="snap.snap-store.ubuntu-software" name="/var/lib/snapd/hostfs/usr/share/mime/subclasses" pid=1490 comm="snap-store" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Sep 26 04:31:04 zhengyuanzhang-VirtualBox kernel: [29113.958354] audit: type=1400 audit(1601065864.188:2843): apparmor="DENIED" operation="open" profile="snap.snap-store.ubuntu-software" name="/var/lib/snapd/hostfs/usr/share/mime/icons" pid=1490 comm="snap-store" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Sep 26 04:31:04 zhengyuanzhang-VirtualBox kernel: [29113.958387] audit: type=1400 audit(1601065864.188:2844): apparmor="DENIED" operation="open" profile="snap.snap-store.ubuntu-software" name="/var/lib/snapd/hostfs/usr/share/mime/generic-icons" pid=1490 comm="snap-store" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Sep 26 04:33:32 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.2' (uid=1000 pid=899 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Sep 26 04:33:32 zhengyuanzhang-VirtualBox systemd[889]: Starting Tracker metadata database store and lookup manager...
+Sep 26 04:33:32 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Successfully activated service 'org.freedesktop.Tracker1'
+Sep 26 04:33:32 zhengyuanzhang-VirtualBox systemd[889]: Started Tracker metadata database store and lookup manager.
+Sep 26 04:34:03 zhengyuanzhang-VirtualBox tracker-store[36306]: OK
+Sep 26 04:34:03 zhengyuanzhang-VirtualBox systemd[889]: tracker-store.service: Succeeded.
+Sep 26 04:34:21 zhengyuanzhang-VirtualBox systemd[889]: vte-spawn-fd3a01ea-6df3-4e32-93fd-a21e1ab700c5.scope: Succeeded.
+Sep 26 04:34:21 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.2' (uid=1000 pid=899 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Sep 26 04:34:21 zhengyuanzhang-VirtualBox systemd[889]: Starting Tracker metadata database store and lookup manager...
+Sep 26 04:34:21 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Successfully activated service 'org.freedesktop.Tracker1'
+Sep 26 04:34:21 zhengyuanzhang-VirtualBox systemd[889]: Started Tracker metadata database store and lookup manager.
+Sep 26 04:34:29 zhengyuanzhang-VirtualBox systemd[889]: Started VTE child process 36342 launched by gnome-terminal-server process 33651.
+Sep 26 04:34:51 zhengyuanzhang-VirtualBox tracker-store[36318]: OK
+Sep 26 04:34:51 zhengyuanzhang-VirtualBox systemd[889]: tracker-store.service: Succeeded.
+Sep 26 04:35:01 zhengyuanzhang-VirtualBox CRON[36347]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Sep 26 04:35:07 zhengyuanzhang-VirtualBox pulseaudio[897]: ALSA 提醒我们在该设备中写入新数据，但实际上没有什么可以写入的！
+Sep 26 04:35:07 zhengyuanzhang-VirtualBox pulseaudio[897]: 这很可能是 ALSA 驱动程序 'snd_intel8x0' 中的一个 bug。请向 ALSA 开发人员报告这个问题。
+Sep 26 04:35:07 zhengyuanzhang-VirtualBox pulseaudio[897]: 我们因 POLLOUT 被设置而唤醒 -- 但结果是 snd_pcm_avail() 返回 0 或者另一个小于最小可用值的数值。
+Sep 26 04:35:34 zhengyuanzhang-VirtualBox systemd[889]: vte-spawn-55ff4169-8b52-4485-b9eb-2ec77693b20e.scope: Succeeded.
+Sep 26 04:35:34 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.2' (uid=1000 pid=899 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Sep 26 04:35:34 zhengyuanzhang-VirtualBox systemd[889]: Starting Tracker metadata database store and lookup manager...
+Sep 26 04:35:35 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Successfully activated service 'org.freedesktop.Tracker1'
+Sep 26 04:35:35 zhengyuanzhang-VirtualBox systemd[889]: Started Tracker metadata database store and lookup manager.
+Sep 26 04:35:42 zhengyuanzhang-VirtualBox systemd[889]: vte-spawn-63850fdf-5bae-402e-9d04-a34a6687f472.scope: Succeeded.
+Sep 26 04:35:42 zhengyuanzhang-VirtualBox systemd[889]: gnome-terminal-server.service: Succeeded.
+Sep 26 04:35:44 zhengyuanzhang-VirtualBox systemd[889]: Started Application launched by gnome-shell.
+Sep 26 04:35:44 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Activating via systemd: service name='org.gnome.Terminal' unit='gnome-terminal-server.service' requested by ':1.253' (uid=1000 pid=36370 comm="/usr/bin/gnome-terminal.real --window " label="unconfined")
+Sep 26 04:35:44 zhengyuanzhang-VirtualBox systemd[889]: Starting GNOME Terminal Server...
+Sep 26 04:35:44 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Successfully activated service 'org.gnome.Terminal'
+Sep 26 04:35:44 zhengyuanzhang-VirtualBox systemd[889]: Started GNOME Terminal Server.
+Sep 26 04:35:44 zhengyuanzhang-VirtualBox systemd[889]: Started VTE child process 36384 launched by gnome-terminal-server process 36373.
+Sep 26 04:35:44 zhengyuanzhang-VirtualBox systemd[889]: gnome-launched-org.gnome.Terminal.desktop-36366.scope: Succeeded.
+Sep 26 04:35:47 zhengyuanzhang-VirtualBox systemd[889]: vte-spawn-87e24b18-8f19-49bd-8261-644fa1ecd272.scope: Succeeded.
+Sep 26 04:35:47 zhengyuanzhang-VirtualBox systemd[889]: gnome-terminal-server.service: Succeeded.
+Sep 26 04:35:48 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Activating via systemd: service name='org.gnome.Terminal' unit='gnome-terminal-server.service' requested by ':1.205' (uid=1000 pid=33864 comm="/usr/bin/nautilus --gapplication-service " label="unconfined")
+Sep 26 04:35:48 zhengyuanzhang-VirtualBox systemd[889]: Starting GNOME Terminal Server...
+Sep 26 04:35:48 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Successfully activated service 'org.gnome.Terminal'
+Sep 26 04:35:48 zhengyuanzhang-VirtualBox systemd[889]: Started GNOME Terminal Server.
+Sep 26 04:35:48 zhengyuanzhang-VirtualBox systemd[889]: Started VTE child process 36401 launched by gnome-terminal-server process 36392.
+Sep 26 04:36:13 zhengyuanzhang-VirtualBox tracker-store[36355]: OK
+Sep 26 04:36:13 zhengyuanzhang-VirtualBox systemd[889]: tracker-store.service: Succeeded.
+Sep 26 04:36:35 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.2' (uid=1000 pid=899 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Sep 26 04:36:35 zhengyuanzhang-VirtualBox systemd[889]: Starting Tracker metadata database store and lookup manager...
+Sep 26 04:36:35 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Successfully activated service 'org.freedesktop.Tracker1'
+Sep 26 04:36:35 zhengyuanzhang-VirtualBox systemd[889]: Started Tracker metadata database store and lookup manager.
+Sep 26 04:37:26 zhengyuanzhang-VirtualBox tracker-store[36416]: OK
+Sep 26 04:37:26 zhengyuanzhang-VirtualBox systemd[889]: tracker-store.service: Succeeded.
+Sep 26 04:38:09 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.2' (uid=1000 pid=899 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Sep 26 04:38:09 zhengyuanzhang-VirtualBox systemd[889]: Starting Tracker metadata database store and lookup manager...
+Sep 26 04:38:09 zhengyuanzhang-VirtualBox dbus-daemon[909]: [session uid=1000 pid=909] Successfully activated service 'org.freedesktop.Tracker1'
+Sep 26 04:38:09 zhengyuanzhang-VirtualBox systemd[889]: Started Tracker metadata database store and lookup manager.
+Sep 26 04:38:34 zhengyuanzhang-VirtualBox sSMTP[36472]: Creating SSL connection to host
+Sep 26 04:38:36 zhengyuanzhang-VirtualBox sSMTP[36472]: SSL connection using ECDHE_RSA_AES_256_GCM_SHA384
+Sep 26 04:38:37 zhengyuanzhang-VirtualBox sSMTP[36472]: Authorization failed (535 5.7.8  https://support.google.com/mail/?p=BadCredentials d5sm3590021pfq.72 - gsmtp)
