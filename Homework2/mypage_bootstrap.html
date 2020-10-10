@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>About me</title>
+    <meta charset = "utf-8">
+    <style>
+        table,th,td{
+            border:1px solid black
+        }
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="cards.js"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <ul class = "navbar-nav">
+            <li class = "nav-item">
+                <a class= "nav-link" href="mypage_bootstrap.html">Home</a>
+            </li>
+            <li class ="nav-item">
+                <a class = "nav-link" href = "projects.html">project</a>
+            </li>
+            <li class ="nav-item">
+                <a class = "nav-link" href = "form.html">form</a>
+            </li>
+            <li class = "nav-item">
+                <a class = "nav-link" href = "tic-tac-toe/tic-tac-toe.html">tic-tac-toe</a>
+			</li>
+			<li>
+				<a class = "nav-link" href = "signup-modal/login.html">login</a>
+			</li>
+        </ul>
+        <div class="navbar-nav ml-auto">
+            <li class = "nav-item">
+                <a class = "navbar-brand" href = "https://github.com/w460229957/Labs_3308.git">
+                    <img src="https://i.ibb.co/XbK6KnR/Giticon.png" width="30" height="30">
+                </a>
+            </li>
+        </div>
+    </nav>
+    <div class="container">
+        <h1>Zhengyuan，Zhang</h1>
+        <br><br>
+        <div class="container">
+            <div class="card">
+                <div class="card-body">
+                    <p>I love Philosophy, virtual books, and comtemptation. Ther core drive for me to study 
+                     CS is that I want to study the structure of computer and programming, with my knowledge of Philosophy.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <br><br><br><br><br>
+        <img src = "https://i.ibb.co/qY2wSHX/anime-cat-drawing.png" class = "rounded-circle" height="300" width="300">
+        <br><br><br>
+        <h4>Interests<a class="btn btn-primary" style = "float: right" href="form.html" role="button">Add interest</a></h4>       
+        </dev>      
+        <div class="card-group" style = "width: 69.5rem">
+            <div class="card" id = "interest1">
+                <img class="card-img" src="https://i.ibb.co/JdHd4HV/download1.jpg" height="300px" width="600px">                
+                <div class="card-body">
+                <button onclick="addCard('interest1')">Add Tweet</button>
+                <p>I love computer games, because they offer me an exciting experience</p>
+                </div>
+            </div>
+
+            <div class="card" id= "interest2">
+                <img class="card-img" src="https://i.ibb.co/XLv7sZ2/Enola-Holmes-76b5da8.jpg" height="300px" width="600px">
+                <div class="card-body">
+                    <button onclick="addCard('interest2')">Add Tweet</button>
+                    <p> I love watching moves, because they illustrate stories vivdly</p>
+                </div>
+            </div>
+
+            <div class="card" id = "interest3">
+                <img class="card-img" src="https://i.ibb.co/NV1bQCw/learning-while-sleeping-neuroscience-shutterstock-686222875-1068x601.png" height="300px" width="600px">
+                <div class="card-body">
+                    <button onclick="addCard('interest3')">Add Tweet</button>
+                    <p> I love Sleeping because we really need to sleep well.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="page-footer bg-light">
+        <div class="footer text-center py-3">
+            <a class="link" href="https://www.linkedin.com/in/%E6%AD%A3%E6%BA%90-%E5%BC%A0-7b37831b7/">
+                    <img src='https://www.linkpicture.com/q/LI-In-Bug_1.png' height="25px" width="30px"></a>
+            </a>
+        </div>
+    </footer>
+  </body>
+</html>
