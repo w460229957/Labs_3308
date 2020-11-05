@@ -1,0 +1,67 @@
+<html>
+
+<head>
+  <title>homework</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+  <script src="./index.js"></script>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <ul class = "navbar-nav">
+        <li class = "nav-item">
+            <a class= "nav-link" href="../mypage_bootstrap.html">Home</a>
+        </li>
+        <li class ="nav-item">
+            <a class = "nav-link" href = "../projects.html">project</a>
+        </li>
+        <li class ="nav-item">
+            <a class = "nav-link" href = "../form.html">form</a>
+        </li>
+        <li class = "nav-item">
+            <a class = "nav-link" href = "../tic-tac-toe/tic-tac-toe.html">tic-tac-toe</a>
+        </li>
+        <li class = "nav-item">
+            <a class = "nav-link" href= "index.html">index</a>
+        </li>
+        <li>
+            <a class = "nav-link" href = "signup-modal/login.html">login</a>
+        </li>
+        <li>
+          <a class = "nav-link" href = "../flicker/index.html">flicker</a>
+      </li>
+    </ul>
+    <div class="navbar-nav ml-auto">
+        <li class = "nav-item">
+            <a class = "navbar-brand" href = "https://github.com/w460229957/Labs_3308.git">
+                <img src="https://i.ibb.co/XbK6KnR/Giticon.png" width="30" height="30">
+            </a>
+        </li>
+    </div>
+</nav>
+  <div class="jumbotron" style="background-image: url(https://i.ibb.co/5n1Y8Fp/anime-cat-drawing.png); height: 300px;">
+    <select class="form-control" id="perPage" style="width: 100px; display: inline-block; position: absolute; right: 57%;">
+      <option value="disabled" disabled>Please select a value below</option>
+      <option value="30">30</option>
+      <option value="50">50</option>
+      <option value="70">70</option>
+    </select>
+
+    <input type="text" class="form-control" value="test" style="width:200px; display:inline-block; position: absolute; right: 49%;" id="filter"></input>
+    <button type="button" class="btn btn-primary" onclick="makeApiCall()" style="position: absolute; right: 45%;">submit</button>
+  </div>
+  <div id="content" style="height: 1200px; overflow:auto;">
+  </div>
+</body>
+
+</html>
